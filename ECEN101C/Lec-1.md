@@ -1,26 +1,37 @@
+
 date: 13-2-23
 
-# Volt calssification
+## Volt calssification
 
-- up to 1000V            > Low voltage
-- between 1kV and 50kV   > Mideum voltage
-- between 50kV and 500kV > High voltage
+- up to 1000V            >> Low voltage
+
+- between 1kV and 50kV   >> Mideum voltage
+
+- between 50kV and 500kV >> High voltage
+
 ---
 
-# Electric circuits
+## Electric circuits
 
 For the circuits to be a circuit it needs:
+
 - A supply
+
 - A load
-    
+
     - Light
+
     - Heat
+
     - Mechanical energy aka a motor
 
 - A wire
+
 - A switch
 
-# Basic circuit quantities
+---
+
+## Basic circuit quantities
 
 Most common types of wire are copper (Cu) and aluminum (Al).
 
@@ -30,8 +41,8 @@ Most common types of wire are copper (Cu) and aluminum (Al).
     
     The rate of change of the quantity of charges.
     
-    $I = \frac{dq}{dt}$   > differentiation of the charge
-    q = i(t).dt > integration of the current
+    $I = \tfrac{dq}{dt}$   > differentiation of the charge
+    $q = \int i(t).dt$ > integration of the current
 
     Example:
         
@@ -47,12 +58,12 @@ Most common types of wire are copper (Cu) and aluminum (Al).
 
 5. The electrical power (P > watt = J/S)
 
-    $p = \frac{dW}{dt} = I \times V = V \times I = I^2 \times R = \frac{V^2}{R}$
+    $p = \frac{dW}{dt} = I \times V = V \times I = I^{2} \times R = \frac{V^{2}}{R}$
 
 
 ---
 
-# Basic circuit analysis
+## Basic circuit analysis
 
 1. DC circuits
 
@@ -64,7 +75,7 @@ Most common types of wire are copper (Cu) and aluminum (Al).
 
 ---
 
-# Basic circuit elements
+## Basic circuit elements
 
 1. Passive elements
 
@@ -106,7 +117,7 @@ Most common types of wire are copper (Cu) and aluminum (Al).
 
 ---
 
-# Basic circuit laws
+## Basic circuit laws
 
 1. Ohm's law
 
@@ -124,7 +135,7 @@ Most common types of wire are copper (Cu) and aluminum (Al).
 
             Current leaves the element from the positive side. 
 
-        For any balanced circuit (with an ideal wire) the sum of the power consumed equals the sum of the supplied power
+    For any balanced circuit (with an ideal wire) the sum of the power consumed equals the sum of the supplied power
 
 2. Kirchoff's law
 
