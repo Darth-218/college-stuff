@@ -30,24 +30,24 @@ Most common types of wire are copper (Cu) and aluminum (Al).
     
     The rate of change of the quantity of charges.
     
-    I = dq/dt   > differentiation of the charge
+    $I = \frac{dq}{dt}$   > differentiation of the charge
     q = i(t).dt > integration of the current
 
     Example:
         
-        - q = 12e-12t >> I = 12(-12)e-12t mA
+    $q = 12e-12t \rightarrow I = 12(-12)e-12t mA$
 
 3. The potential difference (V > volt = J/C)
 
     The energy affecting the charge to move it a certain distance.
 
-    V = dW/dq
+    $V = \frac{dW}{dq}$
 
 4. The electrical energy (W > joule)
 
 5. The electrical power (P > watt = J/S)
 
-    p = dW/dt = I * V = V * I = Ie2 * R = Ve2/R
+    $p = \frac{dW}{dt} = I \times V = V \times I = I^2 \times R = \frac{V^2}{R}$
 
 
 ---
@@ -110,7 +110,7 @@ Most common types of wire are copper (Cu) and aluminum (Al).
 
 1. Ohm's law
 
-    V = I * R
+    $V = I \times R$
 
     - Power types (Conventional sign rule)
 
