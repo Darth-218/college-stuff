@@ -5,11 +5,12 @@ date: 14-2-23
 
 ### Units
 
-length           $rightarrow$ meter
-mass             $rightarrow$ kilogram
-time             $rightarrow$ hour
-charge           $rightarrow$ coulomb
-current intensit $rightarrow$ ampere $rightarrow$ coulomb/second
+| Quantity | Unit     |
+|--------- | -------- |
+| length   | Meter    |
+| mass     | Kilogram |
+| Time     | Hour     |
+| Charge   | Coulomb  |
 
 ### Rules
 
