@@ -23,7 +23,9 @@ $$I = \frac{dq}{dt}$$
 - Energy
 $$E = P \times t = V \times I \times t$$
 
-### Sheet 1
+---
+
+## Sheet 1
 
 - Question 3
 
