@@ -1,0 +1,30 @@
+Date: 15-2-23
+
+# Course specifications
+
+## Course content
+
+1. Programs debugging and tracing
+
+2. Data type representation in computer systems
+
+3. Machine level programming
+
+### Reference
+
+- Computer systems: A programmer's prespective
+
+---
+
+## Grading scheme
+
+| Final                               | 30 |
+| Midterm                             | 20 |
+| Quizzes (best 3)                    | 15 |
+| Assignments                         | 15 |
+| Lecture and lab attendance and part | 20 |
+
+
+## Important dates
+
+30-4-23 midterms
