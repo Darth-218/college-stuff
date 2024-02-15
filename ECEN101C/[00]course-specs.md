@@ -38,26 +38,14 @@
 
 ## Grading Scheme
 
-- 10 $\rightarrow$ Lab submissions
-
-- 5  $\rightarrow$ Lab oral exam
-
-- 10 $\rightarrow$ Project
-
-- 10 $\rightarrow$ assignments
-
-- 10 $\rightarrow$ Quizzes $\rightarrow$ 2/3
-
-- 15 $\rightarrow$ Midterm
-
-- 40 $\rightarrow$ Finals
-
-| Lab Submitions | 10 |
-| Lab Oral Exam  | 5  |
-| Project        | 10 |
-| Assignments    | 10 |
-| Quizzes 2/3    | 10 |
-| Midterm        | 10 |
-| Finals         | 10 |
+| Grade          | Graded |
+| -------------- | ------ |
+| Lab Submitions | 10     |
+| Lab Oral Exam  | 5      |
+| Project        | 10     |
+| Assignments    | 10     |
+| Quizzes 2/3    | 10     |
+| Midterm        | 15     |
+| Finals         | 40     |
 
 ---
