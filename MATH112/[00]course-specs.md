@@ -22,6 +22,7 @@
 
 ## Grading scheme
 
+| ---------------- | -- |
 | Attendance       | 5  |
 | Two Quizzes      | 12 |
 | Assignments      | 15 |
