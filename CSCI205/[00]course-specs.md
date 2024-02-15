@@ -26,7 +26,3 @@ Date: 15-2-23
 | Assignments      | 15    |
 | Attendance       | 20    |
 
-
-## Important dates
-
-30-4-23 midterms
