@@ -22,11 +22,12 @@
 
 ## Grading scheme
 
-|-------------- | -------- |
-| Attendance    | 5        |
-| 5             | 12       |
-| Assignments   | 15       |
-| Two Midterms  | 25       |
-| Final         | 40       |
+| Attendance    | 5  |
+|-------------- | -- |
+| Attendance    | 5  |
+| Two Quizzes   | 12 |
+| Assignments   | 15 |
+| Two Midterms  | 25 |
+| Final         | 40 |
 
 ---
