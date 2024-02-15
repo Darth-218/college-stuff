@@ -18,11 +18,13 @@ Date: 15-2-23
 
 ## Grading scheme
 
-| Final                               | 30 |
-| Midterm                             | 20 |
-| Quizzes (best 3)                    | 15 |
-| Assignments                         | 15 |
-| Lecture and lab attendance and part | 20 |
+| Graded           | Grade |                   
+| ---------------- | ----- |
+| Final            | 30    |
+| Midterm          | 20    |
+| Quizzes (best 3) | 15    |
+| Assignments      | 15    |
+| Attendance       | 20    |
 
 
 ## Important dates
