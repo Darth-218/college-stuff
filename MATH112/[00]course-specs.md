@@ -22,7 +22,6 @@
 
 ## Grading scheme
 
-| Thing         | Grade    |
 |-------------- | -------- |
 | Attendance    | 5        |
 | 5             | 12       |
