@@ -1,7 +1,12 @@
+#+OPTIONS: tex:t
+#+STARTUP: latexpreview
+#+LATEX_HEADER: \usepackage{amsmath}
 
 date: 13-2-23
 
-## Volt calssification
+* Lecture 1
+
+** Volt calssification
 
 - up to 1000V            >> Low voltage
 
@@ -9,9 +14,8 @@ date: 13-2-23
 
 - between 50kV and 500kV >> High voltage
 
----
 
-## Electric circuits
+** Electric circuits
 
 For the circuits to be a circuit it needs:
 
@@ -29,9 +33,8 @@ For the circuits to be a circuit it needs:
 
 - A switch
 
----
 
-## Basic circuit quantities
+** Basic circuit quantities
 
 Most common types of wire are copper (Cu) and aluminum (Al).
 
@@ -42,6 +45,7 @@ Most common types of wire are copper (Cu) and aluminum (Al).
     The rate of change of the quantity of charges.
     
     $I = \tfrac{dq}{dt}$   > differentiation of the charge
+
     $q = \int i(t).dt$ > integration of the current
 
     Example:
@@ -61,9 +65,8 @@ Most common types of wire are copper (Cu) and aluminum (Al).
     $p = \frac{dW}{dt} = I \times V = V \times I = I^{2} \times R = \frac{V^{2}}{R}$
 
 
----
 
-## Basic circuit analysis
+** Basic circuit analysis
 
 1. DC circuits
 
@@ -73,9 +76,8 @@ Most common types of wire are copper (Cu) and aluminum (Al).
 
     Alternating voltage and current.
 
----
 
-## Basic circuit elements
+** Basic circuit elements
 
 1. Passive elements
 
@@ -115,9 +117,8 @@ Most common types of wire are copper (Cu) and aluminum (Al).
 
             Variable voltage
 
----
 
-## Basic circuit laws
+** Basic circuit laws
 
 1. Ohm's law
 

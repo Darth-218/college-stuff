@@ -1,6 +1,6 @@
-# Course Specifications
+* Course Specifications
 
-## Course Content
+** Course Content
 
 ~~1. Intro to electrical cicuits~~
 
@@ -26,7 +26,7 @@
 
     - Analysis
 
-### Referneces
+*** Referneces
 
 - Sedik & Sadiku
 
@@ -34,9 +34,7 @@
 
 - Dorf (Best option)
 
----
-
-## Grading Scheme
+** Grading Scheme
 
 | Grade          | Graded |
 | -------------- | ------ |
@@ -48,4 +46,3 @@
 | Midterm        | 15     |
 | Finals         | 40     |
 
----

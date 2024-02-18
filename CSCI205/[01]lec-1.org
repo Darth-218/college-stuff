@@ -1,8 +1,12 @@
-# Program tracing and debugging
+date: 15-2-23
+
+* Lecture #1
+
+** Program tracing and debugging
 
 A program to print "hello world".
 
-```c
+#+BEGIN_SRC c
 
 #include <stdio.h>
 
@@ -11,50 +15,54 @@ int main() {
     printf("hello world");
     return 0;
 }
-```
 
-## Embedded systems
+#+END_SRC
+
+*** Embedded systems
 
 An embedded system is a compact programmable device 
 intended to have a physical effect through taking physical
 input and outputing a physical output.
 
-### Arduino Uno
+**** Arduino Uno
 
 Contains 14 digital pins, 6 analog pins a USB port and an ISCP header.
 
-#### Arduino commands and functions
+***** Arduino commands and functions
 
-1. `setup()`
+1. ~setup()~
 
     - Used to excute code at the start of the program that identifies pins.
 
-```ino
+#+BEGIN_SRC c++
 
 void setup() {
 
     int <variable> = <pin number>;
-    
-}
-```
 
-2. `loop()`
+}
+
+#+END_SRC
+
+2. ~loop()~
 
     - Containts code that is excuted while the board is running.
 
-```ino
+#+BEGIN_SRC c++
 
 void loop() {
 
     digitalWrite(<pin number>, <Value>) // Value can be LOW or HIGH.
 }
-```
 
-3. `delay(<time>)`
+#+END_SRC
+
+3. ~delay(<time>)~
 
     - Freezes the program for a specific period of time in ms.
 
-```ino
+#+BEGIN_SRC c++
 
 delay(250);
-```
+
+#+END_SRC
