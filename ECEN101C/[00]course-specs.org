@@ -36,13 +36,11 @@
 
 ** Grading Scheme
 
-| Grade          | Graded |
-| -------------- | ------ |
-| Lab Submitions | 10     |
-| Lab Oral Exam  | 5      |
-| Project        | 10     |
-| Assignments    | 10     |
-| Quizzes 2/3    | 10     |
-| Midterm        | 15     |
-| Finals         | 40     |
-
+| Graded         | Grade |
+| Lab Submitions |    10 |
+| Lab Oral Exam  |     5 |
+| Project        |    10 |
+| Assignments    |    10 |
+| Quizzes 2/3    |    10 |
+| Midterm        |    15 |
+| Finals         |    40 |

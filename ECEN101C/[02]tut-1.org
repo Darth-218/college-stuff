@@ -9,7 +9,7 @@ date: 14-2-23
 *** Units
 
 | Quantity | Unit     |
-|--------- | -------- |
+|----------+----------|
 | length   | Meter    |
 | mass     | Kilogram |
 | Time     | Hour     |
