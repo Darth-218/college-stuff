@@ -1,0 +1,61 @@
+* Lab \#1
+
+** Lab tasks
+
+*** Question 1: Make a square of astrics.
+
+#+BEGIN_SRC c
+
+#include <stdio.h>
+
+int main() {
+
+  int lim = 5;
+  for (int x = 0; x < lim; x++) {
+
+    for (int y = 0; y < lim; y++) {
+
+      printf("*");
+    }
+    printf("\n");
+  }
+}
+
+#+END_SRC
+
+*** Question 2: Find the product of two numbers.
+
+#+BEGIN_SRC c
+
+#include <stdio.h>
+
+int main() {
+
+  int a, b;
+
+  printf("Enter the first number: "); scanf("%d", &a);
+  printf("Enter the second number: "); scanf("%d", &b);
+  printf("%d", (a * b));
+}
+
+#+END_SRC
+
+*** Question 3: Input two numbers and return the float sum and the integer sum.
+
+#+BEGIN_SRC c
+
+#include <stdio.h>
+
+int main() {
+
+  int a; float b;
+
+  printf("Enter the first (int) number: "); scanf("%d", &a);
+  printf("Enter the second (float) number: "); scanf("%f", &b);
+
+  printf("Float output   -> %.2f\n", (a + b));
+  printf("Integer output -> %d\n", (a + (int) b));
+
+}
+
+#+END_SRC
