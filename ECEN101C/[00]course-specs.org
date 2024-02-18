@@ -2,7 +2,7 @@
 
 ** Course Content
 
-+1. Intro to electrical cicuits+
+1. +Intro to electrical cicuits+
 
 2. Basic circuit laws
 
