@@ -2,13 +2,13 @@ date: 19-2-23
 
 * Lecture #2
 
-** Printing a line of text
+** First C program. (printing a line of text)
 
 #+BEGIN_SRC c
 
-// First c program
+/* First c program */
 
-#include <stdio.h>
+#include <stdio.h> // Includes the standard input and output functions
 
 // Starting program excution
 int main(void) {
@@ -24,14 +24,6 @@ int main(void) {
 - Comment text can be surrounded by ~/* comment */~ for multi-line comments or succeeding ~// comment~ for single line comments.
 - Void in ~main(void)~ indicates that the function takes no parameters.
 - Since the function returns ~int~, ~return 0;~ is used to return 0, an ~int~, which indicated the program terminating correctly.
-
-*** Escape sequences
-
-| \n | New line|
-| \t | Tab |
-| \a | Alert (beep) |
-| \\ | prints \ |
-| \" | prints " |
 
 ** Input / Output
 
@@ -61,9 +53,17 @@ printf("%.3f", num);  // Shows only 3 decimal places
 
 #+END_SRC
 
+***** Escape sequences
+
+| \n | New line     |
+| \t | Tab          |
+| \a | Alert (beep) |
+| \\ | prints \     |
+| \" | prints "     |
+
 *** Inputing variables
 
-To input variables, we use the respective formater preceeding the address of the variable. ~(&<var>)~
+To input variables, we use the respective format specifier preceeding the address of the variable. ~(&<var>)~
 
 #+BEGIN_SRC c 
 
@@ -73,15 +73,15 @@ scanf("%d", &x);
 
 #+END_SRC
 
-*** Different formaters
+*** Different format specifiers
 
-| %d | Integers |
-| %c | Characters |
-| %s | Strings |
-| %f | Floats |
+| %d | Integers    |
+| %c | Characters  |
+| %s | Strings     |
+| %f | Floats      |
 | %x | Hexadecimal |
-| %o | Octals |
-| %  | prints "%" |
+| %o | Octals      |
+| %  | prints "%"  |
 
 *** More output functions
 
@@ -95,7 +95,7 @@ putchar("char"); // Prints a character
 
 *** More input functions
 
-#+BEGIN_SRC
+#+BEGIN_SRC c
 
 gets(<stringvar>); // Inputs a string
 
