@@ -1,0 +1,93 @@
+% Created 2024-02-18 Sun 20:37
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\author{Yahia Gaber}
+\date{\today}
+\title{}
+\hypersetup{
+ pdfauthor={Yahia Gaber},
+ pdftitle={},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 29.1 (Org mode 9.7)}, 
+ pdflang={English}}
+\begin{document}
+
+\tableofcontents
+
+\section{Lab \#1}
+\label{sec:orgf72d510}
+
+\subsection{Lab tasks}
+\label{sec:orgf2490ed}
+
+\subsubsection{Question 1: Make a square of astrics.}
+\label{sec:org2319685}
+
+\begin{verbatim}
+
+#include <stdio.h>
+
+int main() {
+
+  int lim = 5;
+  for (int x = 0; x < lim; x++) {
+
+    for (int y = 0; y < lim; y++) {
+
+      printf("*");
+    }
+    printf("\n");
+  }
+}
+
+\end{verbatim}
+\subsubsection{Question 2: Find the product of two numbers.}
+\label{sec:orgd47c09b}
+
+\begin{verbatim}
+
+#include <stdio.h>
+
+int main() {
+
+  int a, b;
+
+  printf("Enter the first number: "); scanf("%d", &a);
+  printf("Enter the second number: "); scanf("%d", &b);
+  printf("%d", (a * b));
+}
+
+\end{verbatim}
+\subsubsection{Question 3: Input two numbers and return the float sum and the integer sum.}
+\label{sec:org8b1e931}
+
+\begin{verbatim}
+
+#include <stdio.h>
+
+int main() {
+
+  int a; float b;
+
+  printf("Enter the first (int) number: "); scanf("%d", &a);
+  printf("Enter the second (float) number: "); scanf("%f", &b);
+
+  printf("Float output   -> %.2f\n", (a + b));
+  printf("Integer output -> %d\n", (a + (int) b));
+
+}
+
+\end{verbatim}
+\end{document}

@@ -1,8 +1,8 @@
-Date: 15-2-23
+date: 15-2-23
 
-# Course specifications
+* Course specifications
 
-## Course content
+** Course content
 
 1. Programs debugging and tracing
 
@@ -10,15 +10,13 @@ Date: 15-2-23
 
 3. Machine level programming
 
-### Reference
+*** Reference
 
 - Computer systems: A programmer's prespective
 
----
+** Grading scheme
 
-## Grading scheme
-
-| Graded           | Grade |                   
+| Graded           | Grade |
 | ---------------- | ----- |
 | Final            | 30    |
 | Midterm          | 20    |

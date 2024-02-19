@@ -1,6 +1,6 @@
-# Course specifications
+* Course specifications
 
-## Course content
+** Course content
 
 1. Indefinite Integral
 
@@ -14,13 +14,11 @@
 
 6. Double Integral
 
-### Reference
+*** Reference
 
 - Thomas' Calculus: 14th Edition
 
----
-
-## Grading scheme
+** Grading scheme
 
 | Graded        | Grade |
 |-------------- | ----- |
@@ -30,4 +28,3 @@
 | Two Midterms  | 25    |
 | Final         | 40    |
 
----
