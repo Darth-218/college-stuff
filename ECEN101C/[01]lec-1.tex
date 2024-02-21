@@ -1,0 +1,192 @@
+% Created 2024-02-21 Wed 18:24
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\author{Yahia Gaber}
+\date{\today}
+\title{}
+\hypersetup{
+ pdfauthor={Yahia Gaber},
+ pdftitle={},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 29.1 (Org mode 9.7)}, 
+ pdflang={English}}
+\begin{document}
+
+\tableofcontents
+
+date: 13-2-23
+\section{Lecture 1}
+\label{sec:orge89a20d}
+
+\subsection{Volt calssification}
+\label{sec:org99725ad}
+
+\begin{itemize}
+\item up to 1000V            >> Low voltage
+
+\item between 1kV and 50kV   >> Mideum voltage
+
+\item between 50kV and 500kV >> High voltage
+\end{itemize}
+\subsection{Electric circuits}
+\label{sec:orgc0596e9}
+
+For the circuits to be a circuit it needs:
+
+\begin{itemize}
+\item A supply
+
+\item A load
+
+\begin{itemize}
+\item Light
+
+\item Heat
+
+\item Mechanical energy aka a motor
+\end{itemize}
+
+\item A wire
+
+\item A switch
+\end{itemize}
+\subsection{Basic circuit quantities}
+\label{sec:org50e57b8}
+
+Most common types of wire are copper (Cu) and aluminum (Al).
+
+\begin{enumerate}
+\item The charge  (q > coulumb)
+
+\item The current (I > ampere = C/S)
+
+The rate of change of the quantity of charges.
+
+\(I = \tfrac{dq}{dt}\)   > differentiation of the charge
+
+\(q = \int i(t).dt\) > integration of the current
+
+Example:
+
+\(q = 12e-12t \rightarrow I = 12(-12)e-12t mA\)
+
+\item The potential difference (V > volt = J/C)
+
+The energy affecting the charge to move it a certain distance.
+
+\(V = \frac{dW}{dq}\)
+
+\item The electrical energy (W > joule)
+
+\item The electrical power (P > watt = J/S)
+
+\(p = \frac{dW}{dt} = I \times V = V \times I = I^{2} \times R = \frac{V^{2}}{R}\)
+\end{enumerate}
+\subsection{Basic circuit analysis}
+\label{sec:orgb8ed15e}
+
+\begin{enumerate}
+\item DC circuits
+
+Constant voltage and current.
+
+\item AC circuits
+
+Alternating voltage and current.
+\end{enumerate}
+\subsection{Basic circuit elements}
+\label{sec:org6d0a1cf}
+
+\begin{enumerate}
+\item Passive elements
+
+Elements that absorb the electrical energy.
+
+\begin{itemize}
+\item The most common passive elements:
+
+\begin{itemize}
+\item The resistor        (R > ohm)    (DC \& AC)
+\item The electrical coil (L > henery) (AC only)
+\item The capacitor       (C > farad)  (AC only)
+\end{itemize}
+\end{itemize}
+
+\item Active elements
+
+Elements that generate the electrical energy.
+
+\begin{enumerate}
+\item Current source
+
+Identified from the direction.
+
+\begin{itemize}
+\item Independant
+
+Constant current intensity.
+
+\item Dependant (Voltage controlled -Vx- || Current controlled -Iy-)
+
+Variable current intensity.
+\end{itemize}
+
+\item Voltage source
+
+Identified from the polarity.
+
+\begin{itemize}
+\item Independant
+
+Constant voltage
+
+\item Dependant (Voltage controlled -Vy- || Current controlled -Io-) 
+
+Variable voltage
+\end{itemize}
+\end{enumerate}
+\end{enumerate}
+\subsection{Basic circuit laws}
+\label{sec:orgec8564e}
+
+\begin{enumerate}
+\item Ohm's law
+
+\(V = I \times R\)
+
+\begin{itemize}
+\item Power types (Conventional sign rule)
+
+Only applied when both the current and voltage are positive.
+
+\begin{enumerate}
+\item Power absorbed
+
+Current enters the element from the positive side.
+
+\item Power supplied/delivered
+
+Current leaves the element from the positive side.
+\end{enumerate}
+\end{itemize}
+
+For any balanced circuit (with an ideal wire) the sum of the power consumed equals the sum of the supplied power
+
+\item Kirchoff's law
+
+[NEXT LECTURE]
+\end{enumerate}
+\end{document}

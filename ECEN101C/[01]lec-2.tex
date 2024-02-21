@@ -1,0 +1,117 @@
+% Created 2024-02-21 Wed 18:23
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\author{Yahia Gaber}
+\date{\today}
+\title{}
+\hypersetup{
+ pdfauthor={Yahia Gaber},
+ pdftitle={},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 29.1 (Org mode 9.7)}, 
+ pdflang={English}}
+\begin{document}
+
+\tableofcontents
+
+date: 20-2-23
+\section{Lecture \#2}
+\label{sec:org65ce475}
+
+\subsection{Basic circuit laws (cont.)}
+\label{sec:orgaf6eb8c}
+
+Example on Ohm's law:
+
+A voltage supply of 100V supplies 500W to 4 elements, 10, 12 and 2 in ohm.
+Find the power absorbed by the 4th element.
+
+$$I_t = \frac{P}{V} = 5A$$
+$$P_1 = 5^2 \times 10 = 250W$$
+$$P_2 = 3^2 \times 12 = 108W$$
+$$P_3 = 2^2 \times 2 = 8W$$
+$$\therefore P_4 = P - (P_1 + P_2 + P_3) = 500 - 366 = 134W$$
+\subsubsection{Kirchhoff's Law}
+\label{sec:org9e7a8ab}
+
+\begin{enumerate}
+\item 1. KVL (Kirchhoff's voltage law)
+\label{sec:org2900cc3}
+
+In any loop inside a circuit, The sum of voltage across the loop equals zero.
+
+$$\Sigma V_{loop} = 0$$
+
+\begin{itemize}
+\item Series connection
+
+Elements are in series connection only if the same current passes through all of them. Therefore the equivelant resistance of n resistors in series equals:
+
+$$R_{eq} = \Sigma_{n = 1} R_n$$
+
+\item Voltage division
+
+$$V = V_t \times \frac{R_1}{R_t}$$
+
+\begin{itemize}
+\item When in a series connection, The value of the voltage is directly proportional with the value of the resistance
+\end{itemize}
+\end{itemize}
+\item 2. KCL (Kirchhoff's current law)
+\label{sec:org23c984e}
+
+\begin{itemize}
+\item Junction
+
+A junction is a connection point in the circuit between only two elements and the current passing through is constant.
+
+\item Node:
+
+A node is a connection point in the circuit that connects at least three branches and is where the current is branched.
+\end{itemize}
+
+KCL states that the sum of currents going into a node equals the sum of currents going out of the same node
+
+$$\Sigma I_{in} = \Sigma I_{out}$$
+
+\begin{itemize}
+\item Parallel connection
+
+Parallel connection is where elements share the same start and end point and therefore share the same voltage
+
+$$\frac{1}{R_{eq}} = \Sigma_{n = 1} \frac{1}{R_n}$$
+
+\begin{itemize}
+\item In the case of only two resistors:
+
+$$R_{eq} = \frac{R_1 \times R_2}{R_1 + R_2}$$
+\end{itemize}
+
+\item Current division
+
+$$\frac{I_1}{I_2} = \frac{R_2}{R_1}$$
+
+$$I_1 = I_t \times \frac{R_2}{R_1 + R_2}$$
+
+\begin{itemize}
+\item When in parallel connection, the value of the current is inversly proportional with the value of the resistance.
+\end{itemize}
+\end{itemize}
+\end{enumerate}
+\subsubsection{Conductance (\(G\))}
+\label{sec:org3b24d52}
+
+$$G = \frac{1}{R} = \omega = S$$
+\end{document}
