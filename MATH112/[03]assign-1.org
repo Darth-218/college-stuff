@@ -1,0 +1,103 @@
+* Assignment #1
+
+** Question 1
+
+
+$$\int \frac{1}{1 + e^{2x}} = \tan^{-1}(e^{x}) + c$$
+
+sol:
+
+$$\frac{d}{d_{x}}(\tan^{-1}(e^{x}) + c) = \frac{e^{x}}{e^{2x} + 1}$$
+
+$\therefore$ the relation is true.
+
+** Question 2
+
+$$\int \sqrt{\frac{\cosh(x) - \sinh(x)}{\cosh(x) + \sinh(x)}} .dx$$
+
+sol:
+
+$$\int \sqrt{\frac{e^{-x}}{e^{x}}} = \int \sqrt{\frac{1}{e^{2x}}} .dx = \int e^{-x} = -e^{-x} + c$$
+
+** Question 3
+
+$$\int \frac{1}{\sqrt{2 - x^{2}}} .dx$$
+
+sol:
+
+$$a = \sqrt{2} \rightarrow \arcsin(\frac{x}{\sqrt{2}}) + c$$
+
+** Question 4
+
+$$\int \sqrt{e^{x}} .dx = 2 \sqrt{e^{x}} + c$$
+
+sol:
+
+$$\frac{d}{d_{x}}(2\sqrt{e^{x}} + c) = 2 \times \frac{e^{x}}{2\sqrt{e^{x}}} = \frac{e^{x}}{\sqrt{e^{x}}}$$
+
+$\therefore$ the relation is false.
+
+** Question 5
+
+$$\int \frac{1}{x \sqrt{x^{2} - 2}} $$
+
+sol:
+
+$$ \frac{1}{\sqrt{2}} \sec^{-1}(\frac{x}{\sqrt{2}}) + c $$
+
+** Question 6
+
+$$\int x \cos(x) .dx = \frac{x^{2}}{2} \times \frac{\cos^{2}(x)}{2} + c$$
+
+sol:
+
+$$ \frac{d}{d_{x}}(\frac{1}{4}\ x^{2} \times \cos^{2}(x) + c) = \frac{1}{4}(x^{2} \times 2\cos(x) \times \sin(x) + \cos^{2}(x) \times 2x) $$
+
+$$ = \frac{1}{4}(x^{2} \times \sin(2x) + \cos^{2}(x) \times 2x) $$
+
+** Question 7
+
+$$\int \frac{1}{x^{2} + 6x + 13}\ .dx$$
+
+sol:
+
+$$ \int \frac{1}{(x + 3)^{2} + 1} $$
+
+** Question 8
+
+$$ \int (e^{x} + 3^{x})^{2} .dx$$
+
+sol:
+
+$$ \int e^{2x} + 3^{2x} + 2 \times e^{x} \times 3^{x} .dx $$
+
+$$ = \frac{e^{2x}}{2} + \frac{3^{2x}}{2\ln(3)} +  $$
+
+** Question 9
+
+$$ \int \frac{1}{\sqrt{x^{2} + 4x + 5}}\ .dx $$
+
+sol:
+
+$$ \int \frac{1}{\sqrt{(x + 2)^{2} + 1}}  $$
+
+** Question 10
+
+$$ \int \frac{1}{4 + 16x^{2}} .dx $$
+
+sol:
+
+$$ \int \frac{1}{16(\frac{1}{4} + x^{2})} .dx = \frac{1}{16} \times 2 \arctan(\frac{2x}{1}) + c $$
+
+** TODO Question 11
+
+$$ \int \frac{\cosh(x)}{\sqrt{\sinh^{2}(x) - 2\sinh(x)}} .dx$$
+
+sol:
+
+
+** Question 17
+
+$$\int \sinh(\ln(x)) .dx$$
+
+sol:
