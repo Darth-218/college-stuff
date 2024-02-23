@@ -32,11 +32,11 @@ b)
 
    t = 10ms
 
-   $$P = V \times I = 0 \times 250 = 0W \rightarrow E = 0 \times 0.01 = 0J$$
+   $$P = V \times I = 8 \times 250 = 2000W \rightarrow E = 2000 \times 0.01 = 20J$$
 
    t = 30ms
 
-   $$P = -8 \times -0.25 = 2W \rightarrow E = 2 \times 0.03 = 0.06J$$
+   $$P = 0 \times -0.25 = 0W \rightarrow E = 0 \times 0.03 = 0J$$
 
    t = 80ms
 
