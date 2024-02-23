@@ -1,40 +1,46 @@
+#+latex_header: \usepackage{tikz}
 
 Student Name: Yahia Hany Gaber
 Student ID: 231000412
 
 * Assignment #1
 
-** TODO Question 1
+** Question 1
 
 a)
-   Voltage at 10ms
 
-   $$15e^{-250 \times (10 \times 10^{-3})} = $$
+   The power supplied at 10ms
 
-   Current at 10ms
-
-   $$40e^{-250 \times (10 \times 10^{-3})} = $$
-
-   $\therefore$ The power supplied at 10ms
-
-   $$P = V \times I = $$
+   $$P = V \times I = (15 \times 40)^{-250\times (10 \times 10^{-3})} = 1.134 \times 10^{-7}W $$
 
 b)
    Total energy supplied\delivered $$$$
 
-   $$E = P \times t$$
+
+   $$ \int P \cdot dt = \int 600^{-250t} \cdot dt = -\frac{600^{\ 250t}}{250 \times \ln(600)} $$
 
 ** TODO Question 2
 
 a)
-   TODO
+
+
 
 b)
-   Energy delivered to the circuit at t = 10ms
+   Energy delivered to the circuit at:
 
-   at t = 30ms
+   $$E = P \times t$$
 
-   at t = 80ms
+   t = 10ms
+
+   $$P = V \times I = 0 \times 250 = 0W \rightarrow E = 0 \times 0.01 = 0J$$
+
+   t = 30ms
+
+   $$P = -8 \times -0.25 = 2W \rightarrow E = 2 \times 0.03 = 0.06J$$
+
+   t = 80ms
+
+   $$P = 0 \times 250 = 0W \rightarrow E = 0 \times 0.08 = 0J$$
 
 ** Question 3
 
