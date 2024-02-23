@@ -6,7 +6,7 @@ date: 22-2-23
 
 *** Code debugging
 
-| Line | Memory (vars) | Input | Output |
+| Line | Memory (var1) | Memory (var2) | Input | Output |
 | #1   | var1  |  var2 |       |        |
 | #2   | dec   |  dec  |       |        |
 | #3   |       |       | test  | test   |
