@@ -4,7 +4,7 @@
 
 *** Question 1: Make a square of astrics.
 
-#+BEGIN_SRC c
+#+BEGIN_SRC C
 
 #include <stdio.h>
 
@@ -25,7 +25,7 @@ int main() {
 
 *** Question 2: Find the product of two numbers.
 
-#+BEGIN_SRC c
+#+BEGIN_SRC C
 
 #include <stdio.h>
 
@@ -42,7 +42,7 @@ int main() {
 
 *** Question 3: Input two numbers and return the float sum and the integer sum.
 
-#+BEGIN_SRC c
+#+BEGIN_SRC C
 
 #include <stdio.h>
 
