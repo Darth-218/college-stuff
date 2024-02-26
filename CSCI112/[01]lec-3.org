@@ -10,11 +10,19 @@ date: 26-2-23
 
 *** Selection
 
-> if (condition) then (action) else (action)
+#+begin_quote
+
+if (condition) then (action) else (action)
+
+#+end_quote
 
 **** single selection statment
 
-> if a condition is met perform an action, else the action is skipped.
+#+begin_quote
+
+if a condition is met perform an action, else the action is skipped.
+
+#+end_quote
 
 #+begin_src C
 
@@ -27,7 +35,11 @@ if (condition) {
 
 **** Double selection statment
 
-> if a condition is met perform an action, else perform another action.
+#+begin_quote
+
+if a condition is met perform an action, else perform another action.
+ 
+#+end_quote
 
 #+begin_src C
 
@@ -55,11 +67,19 @@ Print "0" if the condition is true and "1" if the condition is false.
 
 **** Multiple selection statment 
 
-> if a condition is met perfrom an action, else if the second condition is met perform a second action and so on.
+#+begin_quote
+
+if a condition is met perfrom an action, else if the second condition is met perform a second action and so on.
+
+#+end_quote
 
 ***** Switch case
 
-> Takes an input and acts according to the value of the input.
+#+begin_quote
+
+Takes an input and acts according to the value of the input.
+
+#+end_quote
 
 #+begin_src C
 
