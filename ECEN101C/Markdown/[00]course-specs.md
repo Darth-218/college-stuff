@@ -18,7 +18,7 @@
 
 1.  <del>Intro to electrical cicuits</del>
 
-2.  Basic circuit laws
+2.  <del>Basic circuit laws</del>
 
 3.  Technical methods & solving electrical cicuits (Nodal and mesh analysis)
 
