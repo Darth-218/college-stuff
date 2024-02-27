@@ -180,7 +180,7 @@ sol:
 
 ### Question 2
 
-$$\int \frac{1}{\sqrt{x^{2}+2x}$$
+$$\int \frac{1}{\sqrt{x^{2}+2x}}$$
 
 sol:
 
