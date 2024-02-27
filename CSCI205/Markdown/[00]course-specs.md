@@ -52,12 +52,6 @@ date: 15-2-23
 
 
 <tr>
-<td class="org-left">----------------</td>
-<td class="org-right">-----</td>
-</tr>
-
-
-<tr>
 <td class="org-left">Final</td>
 <td class="org-right">30</td>
 </tr>
