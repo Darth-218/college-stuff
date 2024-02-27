@@ -8,7 +8,7 @@
     4.  [Question 4: Simple Sum](#orgf25a2be)
     5.  [Question 5: Simple Product](#orge3fd356)
 
-Student Name: Yahia Hany Gaber
+Student Name: Yahia Hany Gaber | 
 Student ID: 231000412
 
 
@@ -23,16 +23,16 @@ Student ID: 231000412
 
 A program to print &ldquo;Hello World!&rdquo;.
 
-    
-    #include <stdio.h>
-    
-    int main() {
-    
-      printf("Hello World!\n");
-    
-      return 0;
-    }
+```c
+#include <stdio.h>
 
+int main() {
+
+  printf("Hello World!\n");
+
+  return 0;
+}
+```
 
 <a id="org5c58ebd"></a>
 
@@ -40,22 +40,22 @@ A program to print &ldquo;Hello World!&rdquo;.
 
 A program to read two variables `A` and `B` and assign the value of their sum to `X`.
 
-    
-    #include <stdio.h>
-    
-    int main() {
-    
-      int A, B;
-    
-      scanf("%d", &A); scanf("%d", &B);
-    
-      int X = A + B;
-    
-      printf("X = %d\n", X);
-    
-      return 0;
-    }
+```c 
+#include <stdio.h>
 
+int main() {
+
+  int A, B;
+
+  scanf("%d", &A); scanf("%d", &B);
+
+  int X = A + B;
+
+  printf("X = %d\n", X);
+
+  return 0;
+}
+```
 
 <a id="orgeb90a7d"></a>
 
@@ -63,20 +63,20 @@ A program to read two variables `A` and `B` and assign the value of their sum to
 
 A program to calculate the area of a circle using the radius `R` which is taken as input.
 
-    
-    #include <stdio.h>
-    
-    int main() {
-    
-      float R;
-    
-      scanf("%f", &R);
-    
-      printf("A = %f\n", (3.14159 * R * R));
-    
-      return 0;
-    }
+```c
+#include <stdio.h>
 
+int main() {
+
+  float R;
+
+  scanf("%f", &R);
+
+  printf("A = %f\n", (3.14159 * R * R));
+
+  return 0;
+}
+```
 
 <a id="orgf25a2be"></a>
 
@@ -84,22 +84,22 @@ A program to calculate the area of a circle using the radius `R` which is taken 
 
 A program that reads two integers `A` and `B` and assigns their sum to the variable `SOMA` and prints it.
 
-    
-    #include <stdio.h>
-    
-    int main() {
-    
-      int A, B;
-    
-      scanf("%d", &A); scanf("%d", &B);
-    
-      int SOMA = A + B;
-    
-      printf("SOMA = %d\n", SOMA);
-    
-      return 0;
-    }
+```c
+#include <stdio.h>
 
+int main() {
+
+  int A, B;
+
+  scanf("%d", &A); scanf("%d", &B);
+
+  int SOMA = A + B;
+
+  printf("SOMA = %d\n", SOMA);
+
+  return 0;
+}
+```
 
 <a id="orge3fd356"></a>
 
@@ -107,19 +107,19 @@ A program that reads two integers `A` and `B` and assigns their sum to the varia
 
 A program that reads two integers `A` and `B` and assigns their product to the variable `PROD` and prints it.
 
-    
-    #include <stdio.h>
-    
-    int main() {
-    
-      int A, B;
-    
-      scanf("%d", &A); scanf("%d", &B);
-    
-      int PROD = A * B;
-    
-      printf("PROD = %d\n", PROD);
-    
-      return 0;
-    }
+```c    
+#include <stdio.h>
 
+int main() {
+
+  int A, B;
+
+  scanf("%d", &A); scanf("%d", &B);
+
+  int PROD = A * B;
+
+  printf("PROD = %d\n", PROD);
+
+  return 0;
+}
+```
