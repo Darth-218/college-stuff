@@ -1,0 +1,110 @@
+date: 26-2-23
+
+* Lecture #3
+
+** Control structure
+
+- Sequence 
+- Selection 
+- Repetetion
+
+*** Selection
+
+#+begin_quote
+
+if (condition) then (action) else (action)
+
+#+end_quote
+
+**** single selection statment
+
+#+begin_quote
+
+if a condition is met perform an action, else the action is skipped.
+
+#+end_quote
+
+#+begin_src C
+
+if (condition) {
+
+  statment;
+}
+
+#+end_src
+
+**** Double selection statment
+
+#+begin_quote
+
+if a condition is met perform an action, else perform another action.
+ 
+#+end_quote
+
+#+begin_src C
+
+if (condition) {
+
+  statment;
+}
+
+else {
+
+  statment;
+}
+
+#+end_src
+
+Another syntax
+
+#+begin_src C
+
+printf("%d", condition ? 0 : 1);
+
+#+end_src
+
+Print "0" if the condition is true and "1" if the condition is false.
+
+**** Multiple selection statment 
+
+#+begin_quote
+
+if a condition is met perfrom an action, else if the second condition is met perform a second action and so on.
+
+#+end_quote
+
+***** Switch case
+
+#+begin_quote
+
+Takes an input and acts according to the value of the input.
+
+#+end_quote
+
+#+begin_src C
+
+switch (value) {
+
+  case val1:
+    
+    statment;
+    break;
+
+  case val2:
+    
+    statment;
+    break;
+
+  case val3:
+    
+    statment;
+    break;
+
+  default:
+
+    statment;
+    break;
+}
+
+#+end_src
+

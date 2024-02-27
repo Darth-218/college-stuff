@@ -1,0 +1,116 @@
+date: 19-2-23
+
+* Lecture #2
+
+** First C program. (printing a line of text)
+
+#+BEGIN_SRC c
+
+/* First c program */
+
+#include <stdio.h> // Includes the standard input and output functions
+
+// Starting program excution
+int main(void) {
+
+  printf("Welcome to C!\n");
+
+  return 0;
+
+} // Ending function
+
+#+END_SRC
+
+- Comment text can be surrounded by ~/* comment */~ for multi-line comments or succeeding ~// comment~ for single line comments.
+- Void in ~main(void)~ indicates that the function takes no parameters.
+- Since the function returns ~int~, ~return 0;~ is used to return 0, an ~int~, which indicated the program terminating correctly.
+
+** Input / Output
+
+*** Outputting (printing) variables
+
+To print variables, we use specaial foramters in the print statement preceeding the variable itself
+
+#+BEGIN_SRC c 
+
+int x = 10;
+
+printf("the variable x = %d", x);
+
+#+END_SRC
+
+**** Formating the output
+
+#+BEGIN_SRC c
+
+printf("%3d",  num);   // reserves 3 blankspaces from the left
+
+printf("%03d", num);  // reserves 3 zeros from the left
+
+printf("%-3d", num);  // reserves 3 blankspaces from the right
+
+printf("%.3f", num);  // Shows only 3 decimal places
+
+#+END_SRC
+
+***** Escape sequences
+
+| \n | New line     |
+| \t | Tab          |
+| \a | Alert (beep) |
+| \\ | prints \     |
+| \" | prints "     |
+
+*** Inputing variables
+
+To input variables, we use the respective format specifier preceeding the address of the variable. ~(&<var>)~
+
+#+BEGIN_SRC c 
+
+int x;
+
+scanf("%d", &x);
+
+#+END_SRC
+
+*** Different format specifiers
+
+| %d | Integers    |
+| %c | Characters  |
+| %s | Strings     |
+| %f | Floats      |
+| %x | Hexadecimal |
+| %o | Octals      |
+| %  | prints "%"  |
+
+*** More output functions
+
+#+BEGIN_SRC c
+
+puts("string"); // Prints a string
+
+putchar("char"); // Prints a character
+
+#+END_SRC
+
+*** More input functions
+
+#+BEGIN_SRC c
+
+gets(<stringvar>); // Inputs a string
+
+getch(); // Inputs an invisible character to proceed with the code
+
+getche(); // Inputs a visible character to proceed with the code
+
+/* Both getch() and getche() are included in conio.h */
+
+#+END_SRC
+
+** Aritmetic order
+
+Left to right 
+
+| () | * | / | % | + | - |
+
+
