@@ -1,6 +1,6 @@
 #+latex_header: \usepackage{tikz}
 
-Student Name: Yahia Hany Gaber
+Student Name: Yahia Hany Gaber |
 Student ID: 231000412
 
 * Assignment #1
@@ -11,36 +11,34 @@ a)
 
    The power supplied at 10ms
 
-   $$P = V \times I = (15 \times 40)^{-250\times (10 \times 10^{-3})} = 1.134 \times 10^{-7}W $$
+   $$P = V \times I = 15e^{-250t} \times 0.04e^{-250t} = 0.6e^{-500t}W  \rightarrow P(0.01) = 0.6^{-500 \times 0.1} = 0.00404W$$
 
 b)
    Total energy supplied\delivered $$$$
 
 
-   $$ \int P \cdot dt = \int 600^{-250t} \cdot dt = -\frac{600^{\ 250t}}{250 \times \ln(600)} $$
+   $$ \int P(t) \cdot dt = \int 0.6^{-500t} \cdot dt = -\frac{0.6}{500}e^{-500t} $$
 
-** TODO Question 2
+** Question 2
 
 a)
 
-
+[[../Ignored/ECEN101C/assign-1-Q-2.png]]
 
 b)
-   Energy delivered to the circuit at:
-
-   $$E = P \times t$$
+   Energy (Area under the curve) delivered to the circuit at:
 
    t = 10ms
 
-   $$P = V \times I = 8 \times 250 = 2000W \rightarrow E = 2000 \times 0.01 = 20J$$
+   $$E(0.01) = \frac{1}{2} \times 2 \times 0.01 = 10mJ$$
 
    t = 30ms
 
-   $$P = 0 \times -0.25 = 0W \rightarrow E = 0 \times 0.03 = 0J$$
+   $$E(0.03) = E(0.01) - \frac{1}{2} \times 2 \times 0.01 + E(0.01) = 10mJ$$
 
    t = 80ms
 
-   $$P = 0 \times 250 = 0W \rightarrow E = 0 \times 0.08 = 0J$$
+   $$E(0.08) = E(0.03) - \frac{1}{2} \times 2 \times 0.01 + E(0.01) = 10mJ$$
 
 ** Question 3
 
