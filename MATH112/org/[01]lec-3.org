@@ -1,0 +1,98 @@
+
+date: 28-2-23
+
+* Lecture #3
+
+** Integration by parts
+
+#+begin_quote
+
+Used in the integration of the product of two functions
+
+#+end_quote
+
+$$d(u \times v) = u \cdot dv + v \cdot du \to u \cdot dv = d(u \times v) - v \cdot du$$
+By integrating both sides.
+$$\int u \cdot dv = uv - \int v \cdot du$$
+
+*** First category
+
+- $u$ has to be a polynomial function while $dv$ has to be an easily integrated function.
+
+***** Examples
+
+1. $\int x \times e^x \cdot dx$
+
+$$x \to u, \qquad e^x \to dv$$
+$$1 \cdot dx \to du, \qquad e^x \to v$$
+
+$$\therefore \int x \times e^x \cdot dx = x \times e^x - \int e^x \cdot dx$$
+$$= xe^x - e^x + c$$
+
+2. $\int x \times \cos(2x) \cdot dx$
+
+$$x \to u, \qquad \cos(2x) \cdot dx \to dv$$
+$$1 \cdot dx \to du, \qquad \frac{\sin(2x)}{2} \to v$$
+
+3. $\int x \times \sec^2(x) \cdot dx$
+$$x \to u, \qquad \sec^2(x) \cdot dx \to dv$$
+$$1 \cdot dx \to du, \qquad \tan(x) \to v$$
+
+4. $\int x \sec(x) \tan(x)$
+$$x \to u, \qquad \sec(x) \tan(x) \to dv$$
+$$1 \cdot dx \to du, \qquad \sec(x) \to v$$
+
+**** Tabular form
+
+***** Examples
+
+1. $x^2 e^x \cdot dx$
+
+|       | | e^x |
+| + x^2 | $\times$ | e^x |
+| - 2x  | $\times$ | e^x |
+| + 2   | $\times$ | e^x |
+| - 0   | |   |
+
+$$= x^2 $\times$ e^x - 2x \times e^x + 2 \times e^x + c$$
+
+2. $\int (x^2 + x - 1) $\times$ \sin(2x) \cdot dx$
+
+| | | \sin(2x) |
+| + (x^2 + x - 1) | $\times$ | 2 \cos(2x) | 
+| - (2x + 1) | $\times$ | -4 \sin(2x) |
+| + (2) | $\times$ | -8 \cos(2x) |
+| - (0) | | |
+
+*** Second category
+
+- $u$ is an inverse function whose derivative is not present in the function and the $dv$ is a constant or a polynomial function.
+
+**** Example 
+
+1. $x \ln(x) \cdot dx$
+
+$$\ln(x) \to u, \qquad x \cdot dx \to dv$$
+$$\frac{dx}{x} \to du, \qquad \frac{x^2}{2} \to v$$
+
+2. $\ln(x) \cdot dx$
+
+$$\ln(x) \to u, \qquad 1 \cdot dx \to dv$$
+$$\frac{dx}{x} \to du, \qquad x \to v$$
+
+*** Third category
+
+- $u$ can be $dv$ and vice versa.
+
+**** Examples
+
+1. $\int e^x \times \sin(x) \cdot dx$
+
+$$e^x \to u, \qquad \sin(x) \to dv$$
+$$e^x \cdot dx \to du, \qquad -\cos(x) \to v$$
+
+- and so on without changing which part is $u$ and which is $dv$
+
+*** Choosing $u$
+
+| Inverse functions | Log/Ln | Algebric | Trignometric | Exponential |
