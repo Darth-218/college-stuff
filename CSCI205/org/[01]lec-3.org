@@ -1,0 +1,92 @@
+
+date: 29-2-24
+
+* Lecture #3
+
+** Program tracing and debugging (cont.)
+
+*** The ~if~ statment in C
+
+**** Form one
+
+#+begin_src C
+
+if (condition) {
+
+  statment;
+}
+
+#+end_src
+
+**** Form two
+
+#+begin_src C
+
+if (condition) {
+
+  statment;
+}
+
+else {
+
+  statment;
+}
+
+#+end_src
+
+**** Form three
+
+#+begin_src C
+
+if (condition) {
+
+  statment;
+}
+
+else if (condition) {
+
+  statment;
+}
+
+#+end_src
+
+*** Incrementing and Decrementing
+
+- Incrementing
+
+#+begin_src C
+
+int x = 0;
+
+x++; //x now equals 1
+
+/* or */ 
+
+++x; 
+
+#+end_src
+
+- Decrementing
+
+#+begin_src C
+
+int y = 1;
+
+y--; //y now equals 0
+
+/* or */ 
+
+--y; 
+
+#+end_src
+
+*** The ~for~ statment
+
+#+begin_src C
+
+for (counter; condition; increment) {
+
+  statment;
+}
+
+#+end_src
