@@ -1,6 +1,12 @@
 
 * Assignment #2
 
+** Question 1
+
+$$\int \frac{1}{\sqrt{x}(\sqrt{x} - 1)} \cdot dx$$
+
+$$\int \frac{1}{(u + 1)(u)} $$
+
 ** Question 2
 
 $$\int e^x \coth(e^x) \cdot dx$$
