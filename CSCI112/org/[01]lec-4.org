@@ -1,0 +1,110 @@
+
+date: 4-3-24
+
+* Lecture #4
+
+** Repetition statments
+
+#+begin_quote
+
+Having a block of code repeate for a certain time.
+
+#+end_quote
+
+- ~for~ statment
+- ~while~ statment
+- ~do while~ statment 
+
+*** ~for~ loop (counter controlled)
+
+#+begin_quote
+
+The ~for~ loop's number of repetitions is known in advance through it's condition.
+
+#+end_quote
+
+#+begin_src C
+
+for (counter; condition; inc/dec) {
+
+  statment;
+}
+
+#+end_src
+
+- The counter is a variable initialized to be used only with the loop.
+- The condition is controlled by the counter variable.
+- inc/dec is used to change the counter after the loop is done.
+
+*** ~while~ loop
+
+#+begin_quote
+
+The ~while~ loop has an unknown number of repetitions since it has sa condition without a counter and checks the condition before excuting the code under it.
+
+#+end_quote
+
+#+begin_src C 
+
+while (condition) {
+
+  statment;
+}
+
+#+end_src
+
+*** ~do {}while~ loop
+
+#+begin_quote
+
+The ~do {}while~ loop has an unknown number of repetitions since it has a condition without a counter. Unlike the ~while~ loop it checks the condition after excuting the code under it.
+
+#+end_quote
+
+#+begin_src C 
+
+do {
+
+  statment;
+}while (condition);
+
+#+end_src
+
+** Setinel controlled loop
+
+#+begin_quote
+
+Its number of repetitions is unknown and uses a special value "setinel value" that is used to terminate the loop.
+
+#+end_quote
+
+- ~break~ statment 
+- ~continue~ statment
+
+*** The ~break~ statemnt
+
+#+begin_quote
+
+When excuted inside a loop the program immedietly exits the current loop.
+
+#+end_quote
+
+#+begin_src C 
+
+break;
+
+#+end_src
+
+*** the ~continue~ statment 
+
+#+begin_quote
+
+When excuted insid a loop the program skips the current iteration to the next.
+
+#+end_quote
+
+#+begin_src C 
+
+continue;
+
+#+end_src
