@@ -1,0 +1,164 @@
+pspice
+
+date: 5-3-24
+
+* Lecture #4
+
+** Circuit Solution Techniques
+
+- Mesh analysis
+- Nodal analysis 
+
+*** Mesh analysis
+
+"Mesh" is a loop that does not contain intervening branches.
+
+- To do mesh analysis
+
+  1. Count the number of meshes in the circuit.
+  2. Assume a circulating current direction in each mesh.
+  3. Applying KVL across the each mesh to find the currents.
+
+**** Mesh equations
+
+- L.H.S:
+
+If the voltage source supplies current then it's positive.
+
+$$+V = \ldots$$
+
+- R.H.S:
+
+The current passing multiplied by the resistors passed through.
+
+$$\ldots = I_1(R_1 + R_2) \ldots$$
+
+If multiple currents are passing through the same resistor the voltage is removed from the total.
+
+$$\ldots = \lodts - I_2R_{12}$$
+
+- The final mesh equation (example)
+
+$$+V = I_1(R_1 + R_{12}) - I_2R_{12}$$
+
+***** Example
+
+1. Voltage source and resistors.
+
+#+begin_example
+
+          5
+  |-------M-------|
+  |               |
+  |               |
+  |   2  <-3  4   |
+  |---M---|---M---|
+  |       |       |
+  |       |       +
+ 1M      3M       O4V
+  |       |       |
+  |  <-1  |  <-2  |
+  |---O+--|-------|
+     10V
+
+#+end_example
+
+Find $P_{3\Omega}$ using mesh analysis.
+
+Mesh eq1:
+
+$$-10 = I_1(1 + 2 +3) - I_2(3) - I_3(2)$$
+$$\to -10 = 6I_1 - 3I_2 - 2I_3$$
+
+Mesh eq2:
+
+$$-4 = I_2(3 + 4) - I_1(3) - I_3(4)$$
+$$\to -4 = 7I_2 - 3I_1 - 4I_3$$
+
+Mesh eq3:
+
+$$0 = I_3(2 + 4 + 5) - I_1(2) - I_2(4)$$
+
+By solving 1, 2 and 3 
+
+$$P_{3\Omega} = (I_1 - I_2)^2 \times 3$$
+
+2. Current source not on the outer loop. (super mesh)
+
+#+begin_example
+
+    12V  3
+ |--+O---M-------|
+ |               |
+ |               |
+ |   4  <-1  2   |
+ |---M---|---M---|
+ |       |       |
+ |       ^       |
+ |       O2     1M
+ |       ^       |
+ |  <-3  |  <-2  |
+ |-------|-------|
+
+#+end_example
+
+Mesh eq1:
+
+$$-12 = I_1(2 + 3 + 4) - I_2(4) - I_3(2)$$
+
+Between $I_2$ and $I_3$:
+
+$$I_3 - I_2 = 2$$
+
+Mesh eq2 (super mesh (Merging mesh 2 and 3)):
+
+$$0 = I_2(4 + 5) + I_3(1 + 2) - I_2(4 + 2)$$
+
+By solving 1, 2 and 3 
+
+$$P_{12} = 12 \times I_1 = \ldots$$
+
+3. find the power of 3A current source
+
+#+begin_example
+
+     1       1
+ |--<O---|---M---|
+ |       |       +
+ |      2M       O20V
+ |       |       -
+ |  1->  |  <-2  |
+ |   3   |   5   |
+ |---M---|---M---|
+ |       |       |
+ |       V       |
+4M      3O      6M
+ |       V       |
+ |  <-3  |  <-4  |
+ |-------|-------|
+
+#+end_example
+
+Mesh eq1
+
+$$0 = 1(3 + 2) - 2(2)$$
+
+Mesh eq2
+
+$$-20 = I_2(5 + 2) - 1(2)$$
+
+Between $I_3$ and $I_4$
+
+$$I_3 - I_4 = 3$$
+
+Mesh eq3
+
+$$0 = I_3(4 + 3) + I_4(5 + 6) - I_2(5) - I_1(3)$$
+
+by solving 1, 2 and 3
+
+$$V_{5\Omega} = (I_2 - I_4) \times 5$$
+
+by applying KVL at $I_4$
+
+$$V - 5V_{5\Omega} + 6I_4 = 0 \to V = \ldots$$
