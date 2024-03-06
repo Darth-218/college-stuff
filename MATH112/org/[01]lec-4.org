@@ -1,0 +1,78 @@
+
+date: 6-3-24
+
+* Lecture #4
+
+** Trignometric Integrals
+
+*** First category
+
+| $\int \sin^n(x)\cos^m(x) \cdot dx | \to | $\int \sinh^n(x)\cosh^m(x) \cdot dx$ |
+
+If $m$ (or $n$) is odd:
+
+  $$\int \sin^n(x)\cos^{m-1}(x) \cos(x) \codt dx$$
+  $$z = \sin(x) \to dz = \cos(x) \cdot dx$$
+  $$cos^2(x) = 1 - \sin^2(x) = 1 - z^2$$
+  $$I = \int z^n (1 - z^2)^{\frac{m-1}{2}} \cdot dz$$
+
+If $m$ and $n$ are even:
+
+- Resort to the double angle formula to reduce the power till it's cancelled.
+
+**** Examples
+
+1. $\int \cos^3(x) \cdot dx$
+
+sol:
+
+$$\int \cos^2(x) \cos(x) \cdot dx = \int 1 - \sin^2(x) \cos(x) \cdot dx$$
+$$= \int \cos(x) - \sin^2(x) \cos(x) \cdot dx = \sin(x) - \frac{\sin^3(x)}{3} + c$$
+
+2. $\int \sin^4(x) \cos^5(x) \cdot dx$
+
+sol:
+
+$$\int \sin^4(x) \cos^4(x) \cos(x) = \int \sin^4(x)(1 - \sin^2(x))^2 \cos(x) \codt dx$$
+continue by substitution.
+
+*** Second category
+
+| $\int \sec^n(x) \tan^m(x) \cdot dx$ | $\int sech^n(x) tanh^m(x) \cdot dx$ |
+
+If $n$ is even:
+
+  $$\sec^n(x) \to \sec^{n-2}(x) \sec^2(x)$$
+
+If $m$ is odd:
+
+  $$\sec^n(x) \tan^m(x) \to \sec^{n-1}(x) \tan^{m-1}(x) \sec(x) \tan(x)$$
+
+**** Examples
+
+1. $\int \tan^2(x) \sec^4(x) \cdot dx$
+
+sol:
+
+$$\int \tan^2(x) \sec^2(x) \sec^2(x) \cdot dx = \tan^2(x) (\tan^2(x) + 1) \sec^2(x) \cdot dx$$
+$$z = \tan(x) \to dz = \sec^2(x) \cdot dx$$
+$$\int z^2(z^2 + 1) \cdot dz$$
+
+** Trignometric Substitutions
+
+1. $\sqrt{a^2 - x^2}$
+
+$$x = a \sin(\theta) \to dx = a \cos(\theta)\cdot d{\theta}$$
+$$\sqrt{a^2 - x^2} = \sqrt{a^2 - a^2\sin^2(\theta)} = a\cos(\theta)$$
+
+2. $\sqrt{a^2 + x^2}$
+
+$$x = a\tan(\theta) \to dx = a \sec^2(\theta) \codt d{\theta}$$
+$$\sqrt{a^2 + x^2} = a \sec(\theta)$$
+
+3. $\sqrt{x^2 - a^2}$
+
+$$x = a \sec(\theta) \to dx = a \sec(\theta)\tan(\theta)$$
+$$\sqrt{x^2 - a^2} = a \tan(\theta)$$
+
+
