@@ -3,4 +3,160 @@
 
 #+begin_src C 
 
+#include <stdio.h>
+
+int main() {
+
+  char op;
+  float a, b, out;
+
+  printf("Enter operation, num1, num2:")
+  scanf("%c %d %d, &op, &a, &b);
+
+  switch(op) {
+
+    case "+":
+
+      out = (a + b);
+
+    case "-":
+
+      out = (a - b);
+
+    case "*":
+
+      out = (a * b);
+
+    case "/":
+
+      out = (a / b);
+
+  }
+
+  printf("Result: %d", out)
+
+  return 0;
+}
+
+#+end_src 
+
+
+** Question 2: Sum of Even
+
+#+begin_src C 
+
+#include <stdio.h>
+
+int main() {
+
+  int n, sum = 0, x = 2;
+
+  printf("Enter limit: ");
+  scanf("%d", n);
+
+  while (x <= n) {
+
+    sum += x;
+    x+= 2;
+  }
+
+  printf("The sum of even numbers: %d", sum);
+
+  return 0;
+}
+
+#+end_src
+
+
+** Question 3: Triangle Pattern
+
+#+begin_src C 
+
+#include <stdio.h>
+#define new printf("\n")
+
+int main() {
+
+  int n;
+
+  printf("Enter the number of rows: ");
+  scanf("%d", &n);
+
+  for (int x = 0; x <= n; x++, new) {
+
+    for (int y = 0; y <= x; y++) {
+
+      printf("*");
+    }
+  }
+
+  return 0;
+}
+
+#+end_src
+
+
+** Question 4: Finonacci Sequence
+
+#+begin_src C 
+
+#include <stdio.h>
+
+int main() {
+
+  int n;
+
+  printf("Enter n: ");
+  scanf("%d", &n);
+
+  int start = 0, mid = 1, end = 0;
+
+  printf("0, 1, ");
+  for (int x = 3; x <= n; x++) {
+
+    end = (start + mid);
+    start = mid; mid = end;
+
+    if (x != n) {
+
+      printf("%d, ", end);
+    }
+    else {
+
+      printf("%d\n", end);
+    }
+  }
+  return 0;
+}
+
+#+end_src
+
+** Question 5: Sum of Numbers
+
+#+begin_src C 
+
+#include <stdio.h>
+
+int main() {
+
+  int n, sum = 0, div = 10;
+  float fac;
+
+  printf("Enter a number: ");
+  scanf("%d", &n);
+
+  while (n > 0) {
+
+    fac = (n % div);
+    sum += fac;
+    n /= 10;
+  }
+
+  printf("The sum of digits is: %d\n", sum);
+
+  return 0;
+}
+
+#+end_src
+
 
