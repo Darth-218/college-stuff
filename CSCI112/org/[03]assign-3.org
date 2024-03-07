@@ -1,7 +1,10 @@
+Student Name: Yahia Hany Gaber | Student ID: 231000412
 
 * Assignment #3
 
 ** Question 1: Switch Calculator
+
+A calculator using switch statments.
 
 #+begin_src C 
 
@@ -12,38 +15,43 @@ int main() {
   char op;
   float a, b, out;
 
-  printf("Enter operation, num1, num2:")
-  scanf("%c %d %d, &op, &a, &b);
+  printf("Enter operation, num1, num2:\n");
+  scanf("%c %d %d", &op, &a, &b);
 
   switch(op) {
 
-    case "+":
+    case '+':
 
       out = (a + b);
+      break;
 
-    case "-":
+    case '-':
 
       out = (a - b);
+      break;
 
-    case "*":
+    case '*':
 
       out = (a * b);
+      break;
 
-    case "/":
+    case '/':
 
       out = (a / b);
+      break;
 
   }
 
-  printf("Result: %d", out)
+  printf("Result: %.2f", out);
 
   return 0;
 }
 
 #+end_src 
 
-
 ** Question 2: Sum of Even
+
+A program to find the sum of even numbers in a specific range.
 
 #+begin_src C 
 
@@ -69,8 +77,9 @@ int main() {
 
 #+end_src
 
-
 ** Question 3: Triangle Pattern
+
+A program to print out a triangle with a certain number of rows.
 
 #+begin_src C 
 
@@ -97,8 +106,9 @@ int main() {
 
 #+end_src
 
+** Question 4: Fibonacci Sequence
 
-** Question 4: Finonacci Sequence
+A program to print the first ~n~ numbers of the fibonacci sequence.
 
 #+begin_src C 
 
@@ -135,6 +145,8 @@ int main() {
 
 ** Question 5: Sum of Numbers
 
+A program that splits an integer into each separate digit and sums them up.
+
 #+begin_src C 
 
 #include <stdio.h>
@@ -160,5 +172,4 @@ int main() {
 }
 
 #+end_src
-
 
