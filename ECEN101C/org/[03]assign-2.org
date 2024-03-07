@@ -1,0 +1,85 @@
+Student Name: Yahia Hany Gaber |
+Student ID: 231000412
+
+* Assignment #2
+
+** Question 1
+
+Find $v_1$ and $v_g$ when $v_o = 5V$.
+
+
+
+** Question 2
+
+*** (a)
+
+- 26 and 10 $\Omega$ are in series $\to 26 + 10 = 36 \Omega$
+
+- 36 and 18 $\Omega$ are in parallel $\to \frac{36 \times 18}{36 + 18} = 12 \Omega$
+
+- 12 and 6 $\Omega$ are in series $\to 12 + 6 = 18 \Omega$
+
+- 18 and 36 $\Omega$ are in parallel $\to \frac{36 \times 18}{36 + 18} = 12 \Omega$
+
+     $$\therefore R_{ab} = 12 \Omega$$
+
+
+*** (b)
+
+- 12 and 18 $\Omega$ are in series $\to 12 + 18 = 30 \Omega$
+
+- 30 and 10 $\Omega$ are in parallel $\to \frac{30 \times 10}{30 + 10} = 7.5 \Omega$
+
+- 7.5 and 15 $\Omega$ are in parallel $\to \frac{7.5 \times 15}{7.5 + 15} = 5 \Omega$
+
+- 5 and 20 $\Omega$ are in parallel $\to \frac{5 \times 20}{5 + 20} = 4 \Omega$
+
+- 4 and 16 $\Omega$ are in series $\to 4 + 16 = 20 \Omega$
+
+- 20 and 30 $\Omega$ are in parallel $\to \frac{20 \times 30}{20 + 30} = 12 \Omega$
+
+- 4, 12 and 14 $\Omega$ are in series $\to 4 + 12 + 14 = 30 \Omega$
+
+$$\therefore R_{ab} = 30 \Omega$$_{}
+
+*** (c)
+
+- 500 and 1500 $\Omega$ are in parallel $\to \frac{500 \times 1500}{500 + 1500} = 375 \Omega$
+
+- 375 and 750 $\Omega$ are in parallel $\to \frac{375 \times 750}{375 + 750} = 250 \Omega$
+
+- 250 and 250 $\Omega$ are in series $\to 250 + 250 = 500 \Omega$
+
+- 500 and 2000 $\Omega$ are in parallel $\to \frac{500 \times 2000}{500 + 2000} = 400 \Omega$
+
+- 400 and 1000 $\Omega$ are in series $\to 400 + 1000 = 1400 \Omega$
+
+$$\therefore R_{_{ab}} = 1400 \Omega$$
+
+*** (d)
+
+- 60 $\Omega$ is short-circuited and ignored
+
+- 30 and 18 $\Omega$ are in series $\to 30 + 18 = 48 \Omega$
+
+- 48 and 16 $\Omega$ are in parallel $\to \frac{48 \times 16}{48 + 16} = 12 \Omega$
+
+- 12 and 28 $\Omega$ are in series $\to 12 + 28 = 40 \Omega$
+
+- 40 and 40 $\Omega$ are in parallel $\to \frac{40 \times 40}{40 + 40} = 20 \Omega$
+
+- 20 and 20 $\Omega$ are in series $\to 20 + 20 = 40 \Omega$
+
+- 40 and 24 $\Omega$ are in parallel $\to \frac{40 + 24}{40 + 24} = 15 \Omega$
+
+- 25, 15 and 10 $\Omega$ are in series $\to 25 + 15 + 10 = 50 \Omega$
+
+- 50 and 50 $\Omega$ are in parallel $\to \frac{50 \times 50}{50 + 50} = 25 \Omega$
+
+$$\therefore R_{ab} = 25 \Omega$$
+
+** Question 3
+
+The equivelent resistance for the circuit is:
+
+** Question 4
