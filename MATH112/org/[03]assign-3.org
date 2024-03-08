@@ -1,0 +1,58 @@
+
+* Assignment #3
+
+** Attempt 1
+
+*** Question 1
+
+    $$u = 2\ln(x) \to du = \frac{2}{x}$$
+    $$dv = x^2 \cdot dx \to v = \frac{x^3}{3} \cdot dx$$
+
+    $$= 2\ln(x) \times \frac{x^3}{3} - \int \frac{x^3}{3} \times \frac{2}{x}$$
+    $$= \frac{2}{3}x^3\ln(x) - \int \frac{2x^2}{3} = \frac{2x^3}{3}\ln(x) - \frac{2x^3}{9}$$
+    $$= \frac{2x^3}{3}(\ln(x) - \frac{1}{3})$$
+
+*** Question 2
+
+    $$u = \cot^{-1}(x) \to du = \frac{-1}{x^2 + 1} \cdot dx$$
+    $$dv = 1 \cdot dx \to v = x$$
+
+    $$x\cot^{-1}(x) - \int \frac{-x}{x^2 + 1} = x\cot^{-1}(x) - \frac{1}{2} \times \ln(x^2 + 1)$$
+
+*** Question 3
+
+    $$u = \log_2(x) \to du = \frac{1}{x \ln(2)}$$
+    $$dv = x^3 \to v = \frac{x^4}{4}$$
+
+    $$\log_2(x) \times \frac{x^4}{4} - \int \frac{x^4}{4} \times \frac{1}{x\ln(x)}$$
+    $$= \log_2(x) \times \frac{x^4}{4} - \int \frac{x^3}{4\ln(x)}$$
+
+*** Question 5
+
+    | x^15| 15 x^14 | ..x^13 | ..x^12 | 16 |
+
+*** Question 6
+
+    $$u = \cos(8x) \to du = -8\sin(8x)$$
+    $$dv = e^x \to v = e^x$$
+
+    $$e^x \cos(8x) - \int e^x \times -8\sin(8x)$$
+
+*** Question 7
+
+    | -   | cos(x)  |
+    | x^2 | sin(x)  |
+    | 2x  | -cos(x) |
+    | 2   | -sin(x) |
+    | 0   |    -    |
+
+    $$= x^2 \sin(x) + 2x \cos(x) - 2 \sin(x)$$
+
+*** Question 12
+
+    $$u = \ln(5x) \to du = \frac{1}{x} \cdot dx$$
+    $$dv = x^4 \to dv = \frac{x^5}{5}$$
+
+    $$\ln(5x) \frac{x^5}{5} - \int \frac{x^4}{5}$$
+    $$= \ln(5x) \frac{x^5}{5} - \frac{x^5}{25} = \frac{x^5}{25} (\ln(5x)) - 1$$
+
