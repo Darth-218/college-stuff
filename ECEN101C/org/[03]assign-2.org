@@ -21,8 +21,7 @@ Find $v_1$ and $v_g$ when $v_o = 5V$.
 
 - 18 and 36 $\Omega$ are in parallel $\to \frac{36 \times 18}{36 + 18} = 12 \Omega$
 
-     $$\therefore R_{ab} = 12 \Omega$$
-
+$$\therefore \boxed{R_{ab} = 12 \Omega}$$
 
 *** (b)
 
@@ -40,7 +39,7 @@ Find $v_1$ and $v_g$ when $v_o = 5V$.
 
 - 4, 12 and 14 $\Omega$ are in series $\to 4 + 12 + 14 = 30 \Omega$
 
-$$\therefore R_{ab} = 30 \Omega$$_{}
+$$\therefore \boxed{R_{ab} = 30 \Omega}$$
 
 *** (c)
 
@@ -54,7 +53,7 @@ $$\therefore R_{ab} = 30 \Omega$$_{}
 
 - 400 and 1000 $\Omega$ are in series $\to 400 + 1000 = 1400 \Omega$
 
-$$\therefore R_{_{ab}} = 1400 \Omega$$
+$$\therefore \boxed{R_{_{ab}} = 1400 \Omega}$$
 
 *** (d)
 
@@ -76,10 +75,70 @@ $$\therefore R_{_{ab}} = 1400 \Omega$$
 
 - 50 and 50 $\Omega$ are in parallel $\to \frac{50 \times 50}{50 + 50} = 25 \Omega$
 
-$$\therefore R_{ab} = 25 \Omega$$
+$$\therefore \boxed{R_{ab} = 25 \Omega}$$
 
 ** Question 3
 
 The equivelent resistance for the circuit is:
 
+- 1 and 13 $\Omega$ are in series $\to 15 + 12 + 13 = 40 \Omega$
+
+- 520 $\Omega$ are in parallel $\to \frac{5 \times 20}{5 + 20} = 4 \Omega$
+
+- 64 $\Omega$ are in series $\to 6 + 4 = 10 \Omega$
+
+- 1 40 $\Omega$ are in parallel $\to \frac{10 \times 40}{10 + 40} = 8 \Omega$
+
+- 82 $\Omega$ are in series $\to 8 + 2 = 10 \Omega$
+
+$$\therefore \boxed{R_{eq} = 10 \Omega}$$
+
+The value of $i_g$:
+
+$$I = \frac{V}{R} \to i_{g} = \frac{V}{R_{eq}} = \frac{125}{10} = 12.5A$$
+
+Using current division law to find $I_{6 \Omega}$:
+
+$$I_{6\Omega} = i_{g} \times \frac{40}{50} = 10A$$
+
+Dividing that current ($I_{6\Omega}$) to find $i_o$:
+
+$$i_{o} = I_{6\Omega} \times \frac{5}{25} = 2A$$
+
+$$\therefore \boxed{i_o = 2A}$$
+
 ** Question 4
+
+a) ...
+
+   Using current division to find $I_{6\Omega}$:
+
+   $$I_{6\Omega} = 2.4 \times \frac{30}{15} = 4.8A$$
+
+   Dividing the current $I_{6\Omega}$ to find $i_o$:
+
+   $$i_o = I_{6\Omega} \times \frac{10}{100} = 0.48A$$
+
+   $$\boxed{i_{o} = 0.48}$$
+
+   Using current division to find $I_{20\Omega}$:
+
+   $$I_{20 \Omega} = 2.4 \times \frac{15}{30} = 1.2A$$
+
+   Using Ohm's law to find $v_o$:
+
+   $$V = I \times R \to v_{o} = I_{20\Omega} \times 20 = 24V$$
+
+b) ...
+
+   The power used by the 6 $\Omega$ resistor:
+
+   $$P = I^2 \times R = (4.8)^2 \times 6 = 138.24 W$$
+
+c) ...
+
+   The power supplied by the current source using KVL on the leftmost mesh:
+
+   $$-V_{2.4A} + 20 \times 1.2 + 10 \times 1.2 = 0 \to V_{2.4A} = 36V$$
+
+   $$\therefore P_{2.4A} = V \times I = 36 \times 2.4 \to \boxed{P = 86.4 W}$$
