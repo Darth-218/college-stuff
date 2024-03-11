@@ -1,0 +1,72 @@
+date: 11-3-24
+
+* Lecture #5
+
+** Functions
+
+#+begin_quote
+
+Functions are reusable sections of code that outputs a specific value based on the input.
+
+#+end_quote
+
+*** Built-in Functions
+
+Functions already included in C libraries.
+
+*** User-defined Functions
+
+- Easier to maintain.
+- Easy to reuse.
+- Makes code more simple.
+
+**** Defining a function
+
+#+begin_src C
+
+datatype func(datatype par1, datatype par2) {
+
+    /*code*/
+
+    return val;
+  }
+
+#+end_src
+
+Functions can either be written before ~main~ or declared before and written after.
+
+#+begin_src C
+
+datatype func(datatype par1, datatype par2) {
+
+    /*code*/
+
+    return val;
+  }
+
+int main() {
+
+    /*code*/
+  }
+
+#+end_src
+
+#+begin_src C
+
+datatype func(datatype par1, datatype par2);
+
+int main() {
+
+    /*code*/
+  }
+
+datatype func(datatype par1, datatype par2) {
+
+    /*code*/
+
+    return val;
+  }
+
+#+end_src
+
+- Variables defined inside a function only exist inside the function scope.
