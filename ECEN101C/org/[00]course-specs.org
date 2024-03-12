@@ -4,9 +4,13 @@
 
 1. +Intro to electrical cicuits+
 
-2. Basic circuit laws
+2. +Basic circuit laws+
 
-3. Technical methods & solving electrical cicuits (Nodal and mesh analysis)
+3. +Technical methods & solving electrical cicuits+ 
+
+   - +Nodal Analysis+
+
+   - +Mesh Analysis+
 
 4. Technical theorems
 
