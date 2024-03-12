@@ -1,0 +1,184 @@
+
+date: 12-3-24
+
+* Lecture #5
+
+** Circuit Solution Techniques (cont.)
+
+*** Nodal Analysis
+
+To do nodal analysis:
+
+0. Find the number of nodes.
+1. Find the node connecting the most amount of elements.
+2. Mark the node as the ground. ($V_{ref} = 0V)
+3. Apply KCL at each node.
+
+#+begin_example
+
+    V1     R12    V2
+   |---|---M---|---|
+   |   |       |   |
+   ^   |       |   V
+Is1O R1M     R2M   OIs2
+   ^   |       |   V
+   |   |       |   |
+   |---|-------|---|
+           Vref
+
+#+end_example
+
+Applying KCL at $V_1$
+
+$$\Sigma I_{in} = \Sigma I_{out}$$
+$$I_{s1} = I_1 + I_{12}$$
+$$I_{s1} = \frac{V_1 - 0}{R_1} + \frac{V_1 - V_2}{R_{12}}$$
+
+Applying KCL at $V_2$
+
+$$\Sigma I_{in} = \Sigma I_{out}$$
+$$0 = I_{s2} + I_2 + I_{21}$$
+$$-I_{s2} = \frac{V_2 - 0}{R_2} + \frac{V_2}{V_1}{R_{12}}
+
+By solving the two equation we can find both $V_1$ and $V_2$
+
+*** Case 1 (Circuit includes current sources and resistors):
+
+Using nodal equations (using the previous example):
+
+L.H.S:
+
+if a current source is entering the node then its sign is positive
+
+$$+I_{s1} = \ldots$$
+
+R.H.S:
+
+The values of the currents through the elemnts connected to the node.
+
+$$\ldots = \frac{V_1 - 0}{R_1} + \frac{V_1 - V_2}{R_{12}}$$
+
+the number of nodal equations equals the number of unknown voltages
+
+**** Example
+
+- Find Using nodal analysis $P_{2\Omega}$
+
+#+begin_example
+
+V1    4     V3
+|-------M-------|
+|               |
+|   1   V2  2   |
+|---M---|---M---|
+|       |       |
+^       V       |
+O4      O2     3M
+^       V       |
+|       |       |
+|-------|-------|
+       Vref
+
+#+end_example
+
+Nodal equation at $V_1$:
+
+$$4 = \frac{V_1 - V_2}{1} + \frac{V_1 - V_3}{4+}$$
+
+Nodal equation at $V_2$:
+
+$$-2 = \frac{V_2 - V_1}{1} + \frac{V_2 - V_3}{2}$$
+
+Nodal equation at $V_3$:
+
+$$0 = \frac{V_3 - 0}{3} + \frac{V_3 - V_2}{2} + \frac{V_3 - V_1}{4}$$
+
+By solving the three equations:
+
+$$P_{2\Omega} = \frac{(V_2 - V_3)^2}{2}$$
+
+*** Case 2 (Circuit includes a voltage source)
+
+- Case 2-A:
+
+  The voltage source is connecting the reference node and an unknown node.
+
+- Case 2-B (Supernode):
+
+  The voltage source is between two unknown nodes
+
+**** Example
+
+- Find $P_{9A}$
+
+#+begin_example
+
+                4       V3
+        |-------O+------|
+        |               |
+        |               |
+     V2 |   2   V1  3   |
+|-------|---M---|---M---|
+|       |       |       |
+V       |       +       |
+O9     1M      1O      4M
+V       |       -       |
+|       |       |       |
+|-------|-------|-------|
+              Vref
+
+#+end_example
+
+Since $V_1$ is connected to the reference through a voltage source
+$$\therefore V_1 = 1V$$
+
+Merging $V_2$ and $V_3$: (Supernode)
+
+$$V_3 - V_2 = 4V$$
+
+Nodal eq at the supernode: ($V_3$:$V_2$)
+
+$$-9 = \frac{V_2 - 0}{1} + \frac{V_2 - 1}{2} + \frac{V_3 - 0}{4} + \frac{V_3 - V_1}{3}$$
+
+By solving the previous equations:
+
+$$P_{9A} = V \times I = V_2 \times 9 = \ldots W$$
+
+*** Example on all the previous
+
+- Write the nodal equations for the circuit shown in figure
+
+#+begin_example
+
+            V3
+    |-------|-------|
+    |       |       |
+    |       -       |
+    M1      O4      M5
+    |       +       |
+    |   2   |   4   |
+  V1|---M---|---M---|V4
+    |       |V2     |
+    -       |       V
+    O10     M3      O12
+    +       |       V
+    |       |       |
+    |-------|-------|
+          Vref
+
+#+end_example
+
+$$V_1 = -10V$$
+
+Between $V_2$ and $V_3$: (Supernode)
+
+$$V_2 - V_3 = 4$$
+
+Nodal eq at the supernode: ($V_2$:$V_3$)
+
+$$0 = \frac{V_3 - V_1}{1} + \frac{V_3 - V_4}{5} + \frac{V_2 - V_4}{4} + \frac{V_2 - V_1}{2} + \frac{V_2 - 0}{3}$$
+
+Nodal eq at $V_4$:
+
+$$-12 = \frac{V_4 - V_3}{5} + \frac{V_4 - V_2}{4}$$
+
