@@ -1,1 +1,86 @@
+* Fallacies
+
+  - Ad Hominum
+    Personal attack
+
+  - False Dilemma
+    "If you're not with me then you're my enemy."
+
+  - Slippery Slope
+    Stretching of the consequences
+
+  - False Authority
+    Using an Authority in a place where it doesn't count
+
+  - False Analogy
+    Comparing two uncomparable things
+
+  - Hasty Generalization
+    Stereotyping
+
+  - Post Hoc
+    Relating an event to an unrelated preceeding event
+
+  - Bandwagon
+    Following the herd
+
+* Fallacies in the article given
+
+  "Fast fashion is almost always used as an unfavorable term."
+
+  ~Hasty Generalization (Logos):
+    Author ignores that some people might have a positive view of fast fashion
+    and lacks the evidence that supports his point.
+
+  "All social acitivists, conservatives and enviromentalists agree on one thing:"
+
+  ~Bandwagon (Pathos):
+    The author implies that all social acitivists, conservatives and
+    enviromentalists have a negative views on fast fashion.
+
+  "Everyone clearly has more than enough apparels in their closets."
+
+  ~Hasty Generalization (Logos):
+    The author assumes that everyone has enough clothes therefore they don't
+    need new pieces of clothing.
+
+  "Millions of jobs were lost in a snap./the livelihood of millions of people
+  depended on other people purchasing thinfs they did not need."
+
+  ~Post Hoc (Logos):
+    The author implies that the jobs lost were directly related to people not
+    purchasing clothes while ignoring the complex factors such as poor working
+    conditions and low wages.
+
+  "A modern economy needs consumerism to stay afloat and the world needs fast
+  fashion to survive. It is either that, or the economy will crumble and never
+  recover."
+
+  Slippery Slope (Pathos):
+    The author suggests that without fast fashion and people purchasing the world's
+    economy will collapse and never recover.
+
+* Final
+
+  In the article, The author used a number of fallacies appealing to both pathos and
+  logos. The first of the fallacies is when the author wrote "Fast fashion is almost
+  always used as an unfavorable term." which is a hasty generalization since the
+  author generalized that people have a negative view of fast fashion while ignoring
+  that someone else may view it in a positive light. Adding to the previous fallacy,
+  the author appealed to the popularity using bandwagon to imply that all critics
+  are against fast fashion in "All social acitivists, conservatives and enviromentalists
+  agree on one thing". Another fallacy in the author's arugument is another
+  hasty generalization in "Everyone clearly has more than enough apparels in their closets."
+  assuming that everyone has enough clothes therefore the need for new clothes is not
+  the case further ignoring how fast fashion can be benificial to a large amount of
+  people. In a post hoc, the author writes "Millions of jobs were lost in a snap" and
+  "the livelihood of millions of people depended on other people purchasing things they
+  did not need", the relation between the livelihood of the workers and the dependancy
+  on consumers is not as direct as the author presumes since there are multiple more complex
+  factors that the worker's livelihood depends on such as the working conditions and the
+  range of the wages. Lastly, the author reports that "A modern economy needs consumerism 
+  to stay afloat and the world needs fast fashion to survive. It is either that, or the 
+  economy will crumble and never recover." this is a slippery slope since the economy
+  is affected by many more complex aspects and will not easily collapse due to fast fashion.
+  These fallacies greatly weakens creates a less persuading argument.
 
