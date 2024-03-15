@@ -1,20 +1,17 @@
 #include <stdio.h>
 
+int IsEven(int a);
+
 int main() {
 
-  int n, sum = 0, div = 10;
-  float fac;
+  int a;
+  scanf("%d", &a);
 
-  printf("Enter a number: ");
-  scanf("%d", &n);
-
-  while (n > 0) {
-
-    fac = (n % div);
-    sum += fac;
-    n /= 10;
-  }
-
-  printf("The sum of digits is: %d\n", sum);
+  printf("The number %d is ", a);
+  printf((!(IsEven(a))) ? "even.\n" : "odd.\n");
 }
 
+int IsEven(int a) {
+
+  return (a % 2);
+}
