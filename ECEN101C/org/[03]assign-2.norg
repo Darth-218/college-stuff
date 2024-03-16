@@ -1,0 +1,17 @@
+* Assignment #2
+
+** Question 1
+
+   Find $v_1$ and $v_g$ when $v_o = 5V$.
+
+  @math
+   40I_2 + \frac{5}{40} + \frac{5}{10} = 0
+   1600i_2 + 5 + 20 = 0
+   I_2 = -15.6mA
+
+   v_1 = 80i_2 \rightarrow v_1 = -1.25V
+   25I_1 + \frac{-1.25}{20} - 0.015 = 0
+   I_1 = 3.125 \times 10^{-3}A
+   v_g = 60i_1 + 260i_1 = 320i_1 \rightarrow v_g = 1V
+  @end
+
