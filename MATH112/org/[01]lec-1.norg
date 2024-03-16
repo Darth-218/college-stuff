@@ -1,0 +1,44 @@
+date: 15-2-24
+
+* Integration
+
+> Integration is an anti-derivative
+
+  $|d/d_x(F(x)) = f(x)|$
+
+The integration of $f(x)$ is $F(x)$.
+
+** Indefinite integral
+
+  > Integration that has no start or end
+
+*** Basic integration formulas
+
+    @table
+    | ⌠            | d/dx                    |
+    |--------------|-------------------------|
+    | x^n .dx      | (1/(n + 1)) × x^{n + 1} |
+    | (1/f(x)) .dx | ln(f'(x))               |
+    | a^x .dx      | (a^x/ln(a))             |
+    @end
+
+*** Basic trignometric identites
+
+    ~ $|sin^2(x) + cos^2(x) = 1|$
+    ~ $|cosh^2(x) - sinh^2(x) = 1|$
+    ~ $|sec^2(x) - tan^2(x) = 1|$
+    ~ $|tanh^2(x) + sech^2(x) = 1|$
+    ~ $|csc^2(x) - cot^2(x) = 1|$
+    ~ $|coth^2(x) - csch^2(x) = 1|$
+    ~ $|sin(2x) = 2sin(x) cos(x)|$
+    ~ $|sinh(2x) = 2sinh(x) cosh(x)|$
+    ~ $|sin^2(x) = (1 - cos(2x))/2|$
+    ~ $|cos^2(x) = (1 + cos(2x))/2|$
+    ~ $|sinh^2(x) = (cos(2x) - 1)/2|$
+    ~ $|cosh^2(x) = (cos(2x) + 1)/2|$
+    ~ $|sinh(ax) = (e^{ax} - e^{-ax})/2|$
+    ~ $|cosh(ax) = (e^{ax} + e^{-ax})/2|$
+
+** Completeing square
+
+  $|bx^2 + abx + c = b(x + (a/2))^2 + c - a|$

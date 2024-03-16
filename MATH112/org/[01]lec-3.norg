@@ -1,0 +1,36 @@
+date: 28-2-24
+
+* Integration by parts
+
+  According to the product rule (differentiation), the
+  derivative of $[f(x).g(x)] = f(x).g'(x) + f'(x).g(x)$.
+  Using the previous relation and since the derivative
+  can be reversed using integration, the integral of
+  $f(x).g'(x) + f'(x).g(x) = f(x).g(x)$ and since the
+  integral of sums is the sum of integrals. We can
+  deduct:
+
+  $⌠(f(x).g'(x)) .dx = f(x).g(x) × ⌠f'(x).g(x) .dx$
+
+  $∴ ⌠u.dv = uv - ⌠v.du$
+
+** Examples
+
+   - $⌠(x × sin(x)) .dx$:
+
+    Choosing $x$ as $u$ since it's easier to derive.
+    $u = x       → du = 1$
+    $dv = sin(x) .dx → v =-cos(x)$
+
+    $∴ ⌠(x × sin(x)) .dx = -xcos(x) - ⌠(-cos(x)) .dx$
+    $→ ⌠(x × sin(x)) .dx = -xcos(x) + sin(x) + c$
+
+   - $⌠(ln(x)) .dx$:
+
+    Choosing $1 .dx$ as $dv$.
+    $u = ln(x)   → du = (1/x) .dx$
+    $dv = 1 .dx → v = x$
+
+    $∴ ⌠(ln(x)) .dx = xln(x) - ⌠(x × (1/x)) .dx$
+    $→ ⌠(ln(x)) .dx = xln(x) - x + c$
+

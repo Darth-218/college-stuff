@@ -1,0 +1,19 @@
+date: 22-2-24
+
+* Integration by substitution (Backwards chain rule)
+
+  > The substitution method allows the simplification of an integral
+  > by representing a portion as $u$.
+  > For the substitution method to work, the derivative of the
+  > substituted part of the function exists in the equation.
+
+** Example
+
+  - $⌠(2x cos(x² + 1)) .dx$:
+
+    let u = $x² + 1$ \to du = $2x .dx$
+    $∴ 2x cos(x² + 1) .dx = cos(u) .du = sin(u) + c$
+
+    substitute with the original value:
+    $∴ ⌠(2x cos(x² + 1)) .dx = sin(x² + 1) + c$
+
