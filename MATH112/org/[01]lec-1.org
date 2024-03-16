@@ -44,33 +44,33 @@ Examples:
 
 ** Basic trignometric/hyperbolic identites
 
-- $$\sin^2(x) + \cos^2(x)   = 1$$
+1. $$\sin^2(x) + \cos^2(x)   = 1$$
 
-- $$\cosh^2(x) - \sinh^2(x) = 1$$
+2. $$\cosh^2(x) - \sinh^2(x) = 1$$
 
-- $$1 + \tan^2(x)           = sec^2(x)$$
+3. $$1 + \tan^2(x)           = sec^2(x)$$
 
-- $$tanh^2(x) + \sech^2(x)  = 1$$
+4. $$tanh^2(x) + \sech^2(x)  = 1$$
 
-- $$1 + \cot^2(x)           = \csc^2(x)$$
+5. $$1 + \cot^2(x)           = \csc^2(x)$$
 
-- $$\coth^2(x) - 1          = csch^2(x)$$
+6. $$\coth^2(x) - 1          = csch^2(x)$$
 
-- $$\sin(2x)  = 2\sin(x)\cos(x)$$
+7. $$\sin(2x)  = 2\sin(x)\cos(x)$$
 
-- $$\sinh(2x) = 2\sinh(x)\cosh(x)$$
+8. $$\sinh(2x) = 2\sinh(x)\cosh(x)$$
 
-- $$\sin^2(x) = \frac{1 - \cos(2x)}{2}$$
+9. $$\sin^2(x) = \frac{1 - \cos(2x)}{2}$$
 
-- $$\cos^2(x) = \frac{1 + \cos(2x)}{2}$$
+10. $$\cos^2(x) = \frac{1 + \cos(2x)}{2}$$
 
-- $$\sinh^2(x) = \frac{\cos(2x) - 1}{2}$$
+11. $$\sinh^2(x) = \frac{\cos(2x) - 1}{2}$$
 
-- $$\cosh^2(x) = \frac{\cos(2x) + 1}{2}$$
+12. $$\cosh^2(x) = \frac{\cos(2x) + 1}{2}$$
 
-- $$\sinh(ax) = \frac{e^{ax} - e^{-ax}}{2}$$
+13. $$\sinh(ax) = \frac{e^{ax} - e^{-ax}}{2}$$
 
-- $$\cosh(ax) = \frac{e^{ax} + e^{-ax}}{2}$$
+14. $$\cosh(ax) = \frac{e^{ax} + e^{-ax}}{2}$$
 
 ** Completing square
 
