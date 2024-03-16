@@ -1,105 +1,126 @@
-Student Name: Yahia Hany Gaber |
+Student Name: Yahia Hany Gaber 
 Student ID: 231000412
 
 * Assignment #2
 
 ** Question 1
 
-Find $v_1$ and $v_g$ when $v_o = 5V$.
+   Find $v_1$ and $v_g$ when $v_o = 5V$.
 
+   $$
+   40I_2 + \frac{5}{40} + \frac{5}{10} = 0
+   1600i_2 + 5 + 20 = 0
+   I_2 = -15.6mA
 
+   v_1 = 80i_2 \rightarrow v_1 = -1.25V
+   25I_1 + \frac{-1.25}{20} - 0.015 = 0
+   I_1 = 3.125 \times 10^{-3}A
+   v_g = 60i_1 + 260i_1 = 320i_1 \rightarrow v_g = 1V
+   $$
 
 ** Question 2
 
-*** (a)
+*** a)
 
-- 26 and 10 $\Omega$ are in series $\to 26 + 10 = 36 \Omega$
+    - 26 and 10 $\Omega$ are in series $\to 26 + 10 = 36 \Omega$
 
-- 36 and 18 $\Omega$ are in parallel $\to \frac{36 \times 18}{36 + 18} = 12 \Omega$
+    - 36 and 18 $\Omega$ are in parallel $\to \frac{36 \times 18}{36 + 18} = 12 \Omega$
 
-- 12 and 6 $\Omega$ are in series $\to 12 + 6 = 18 \Omega$
+    - 12 and 6 $\Omega$ are in series $\to 12 + 6 = 18 \Omega$
 
-- 18 and 36 $\Omega$ are in parallel $\to \frac{36 \times 18}{36 + 18} = 12 \Omega$
+    - 18 and 36 $\Omega$ are in parallel $\to \frac{36 \times 18}{36 + 18} = 12 \Omega$
 
-$$\therefore \boxed{R_{ab} = 12 \Omega}$$
+    $$
+    \therefore \boxed{R_{ab} = 12 \Omega}
+    $$
 
-*** (b)
+*** b)
 
-- 12 and 18 $\Omega$ are in series $\to 12 + 18 = 30 \Omega$
+    - 12 and 18 $\Omega$ are in series $\to 12 + 18 = 30 \Omega$
 
-- 30 and 10 $\Omega$ are in parallel $\to \frac{30 \times 10}{30 + 10} = 7.5 \Omega$
+    - 30 and 10 $\Omega$ are in parallel $\to \frac{30 \times 10}{30 + 10} = 7.5 \Omega$
 
-- 7.5 and 15 $\Omega$ are in parallel $\to \frac{7.5 \times 15}{7.5 + 15} = 5 \Omega$
+    - 7.5 and 15 $\Omega$ are in parallel $\to \frac{7.5 \times 15}{7.5 + 15} = 5 \Omega$
 
-- 5 and 20 $\Omega$ are in parallel $\to \frac{5 \times 20}{5 + 20} = 4 \Omega$
+    - 5 and 20 $\Omega$ are in parallel $\to \frac{5 \times 20}{5 + 20} = 4 \Omega$
 
-- 4 and 16 $\Omega$ are in series $\to 4 + 16 = 20 \Omega$
+    - 4 and 16 $\Omega$ are in series $\to 4 + 16 = 20 \Omega$
 
-- 20 and 30 $\Omega$ are in parallel $\to \frac{20 \times 30}{20 + 30} = 12 \Omega$
+    - 20 and 30 $\Omega$ are in parallel $\to \frac{20 \times 30}{20 + 30} = 12 \Omega$
 
-- 4, 12 and 14 $\Omega$ are in series $\to 4 + 12 + 14 = 30 \Omega$
+    - 4, 12 and 14 $\Omega$ are in series $\to 4 + 12 + 14 = 30 \Omega$
 
-$$\therefore \boxed{R_{ab} = 30 \Omega}$$
+    $$
+    \therefore \boxed{R_{ab} = 30 \Omega}
+    $$
 
-*** (c)
+*** c)
 
-- 500 and 1500 $\Omega$ are in parallel $\to \frac{500 \times 1500}{500 + 1500} = 375 \Omega$
+    - 500 and 1500 $\Omega$ are in parallel $\to \frac{500 \times 1500}{500 + 1500} = 375 \Omega$
 
-- 375 and 750 $\Omega$ are in parallel $\to \frac{375 \times 750}{375 + 750} = 250 \Omega$
+    - 375 and 750 $\Omega$ are in parallel $\to \frac{375 \times 750}{375 + 750} = 250 \Omega$
 
-- 250 and 250 $\Omega$ are in series $\to 250 + 250 = 500 \Omega$
+    - 250 and 250 $\Omega$ are in series $\to 250 + 250 = 500 \Omega$
 
-- 500 and 2000 $\Omega$ are in parallel $\to \frac{500 \times 2000}{500 + 2000} = 400 \Omega$
+    - 500 and 2000 $\Omega$ are in parallel $\to \frac{500 \times 2000}{500 + 2000} = 400 \Omega$
 
-- 400 and 1000 $\Omega$ are in series $\to 400 + 1000 = 1400 \Omega$
+    - 400 and 1000 $\Omega$ are in series $\to 400 + 1000 = 1400 \Omega$
 
-$$\therefore \boxed{R_{_{ab}} = 1400 \Omega}$$
+    $$
+    \therefore \boxed{R_{_{ab}} = 1400 \Omega}
+    $$
 
-*** (d)
+*** d)
 
-- 60 $\Omega$ is short-circuited and ignored
+    - 60 $\Omega$ is short-circuited and ignored
 
-- 30 and 18 $\Omega$ are in series $\to 30 + 18 = 48 \Omega$
+    - 30 and 18 $\Omega$ are in series $\to 30 + 18 = 48 \Omega$
 
-- 48 and 16 $\Omega$ are in parallel $\to \frac{48 \times 16}{48 + 16} = 12 \Omega$
+    - 48 and 16 $\Omega$ are in parallel $\to \frac{48 \times 16}{48 + 16} = 12 \Omega$
 
-- 12 and 28 $\Omega$ are in series $\to 12 + 28 = 40 \Omega$
+    - 12 and 28 $\Omega$ are in series $\to 12 + 28 = 40 \Omega$
 
-- 40 and 40 $\Omega$ are in parallel $\to \frac{40 \times 40}{40 + 40} = 20 \Omega$
+    - 40 and 40 $\Omega$ are in parallel $\to \frac{40 \times 40}{40 + 40} = 20 \Omega$
 
-- 20 and 20 $\Omega$ are in series $\to 20 + 20 = 40 \Omega$
+    - 20 and 20 $\Omega$ are in series $\to 20 + 20 = 40 \Omega$
 
-- 40 and 24 $\Omega$ are in parallel $\to \frac{40 + 24}{40 + 24} = 15 \Omega$
+    - 40 and 24 $\Omega$ are in parallel $\to \frac{40 + 24}{40 + 24} = 15 \Omega$
 
-- 25, 15 and 10 $\Omega$ are in series $\to 25 + 15 + 10 = 50 \Omega$
+    - 25, 15 and 10 $\Omega$ are in series $\to 25 + 15 + 10 = 50 \Omega$
 
-- 50 and 50 $\Omega$ are in parallel $\to \frac{50 \times 50}{50 + 50} = 25 \Omega$
+    - 50 and 50 $\Omega$ are in parallel $\to \frac{50 \times 50}{50 + 50} = 25 \Omega$
 
-$$\therefore \boxed{R_{ab} = 25 \Omega}$$
+    $$
+    \therefore \boxed{R_{ab} = 25 \Omega}
+    $$
 
 ** Question 3
 
-The equivelent resistance for the circuit is:
+  The equivelent resistance for the circuit is:
 
-- 1 and 13 $\Omega$ are in series $\to 15 + 12 + 13 = 40 \Omega$
+  - 1 and 13 $\Omega$ are in series $\to 15 + 12 + 13 = 40 \Omega$
 
-- 520 $\Omega$ are in parallel $\to \frac{5 \times 20}{5 + 20} = 4 \Omega$
+  - 520 $\Omega$ are in parallel $\to \frac{5 \times 20}{5 + 20} = 4 \Omega$
 
-- 64 $\Omega$ are in series $\to 6 + 4 = 10 \Omega$
+  - 64 $\Omega$ are in series $\to 6 + 4 = 10 \Omega$
 
-- 1 40 $\Omega$ are in parallel $\to \frac{10 \times 40}{10 + 40} = 8 \Omega$
+  - 1 40 $\Omega$ are in parallel $\to \frac{10 \times 40}{10 + 40} = 8 \Omega$
 
-- 82 $\Omega$ are in series $\to 8 + 2 = 10 \Omega$
+  - 82 $\Omega$ are in series $\to 8 + 2 = 10 \Omega$
 
-$$\therefore \boxed{R_{eq} = 10 \Omega}$$
+  $$\therefore \boxed{R_{eq} = 10 \Omega}$$
 
-The value of $i_g$:
+  The value of $i_g$:
 
-$$I = \frac{V}{R} \to i_{g} = \frac{V}{R_{eq}} = \frac{125}{10} = 12.5A$$
+    $$
+    I = \frac{V}{R} \to i_{g} = \frac{V}{R_{eq}} = \frac{125}{10} = 12.5A
+    $$
 
-Using current division law to find $I_{6 \Omega}$:
+    Using current division law to find $I_{6 \Omega}$:
 
-$$I_{6\Omega} = i_{g} \times \frac{40}{50} = 10A$$
+    $$
+    I_{6\Omega} = i_{g} \times \frac{40}{50} = 10A
+    $$
 
 Dividing that current ($I_{6\Omega}$) to find $i_o$:
 
@@ -109,36 +130,48 @@ $$\therefore \boxed{i_o = 2A}$$
 
 ** Question 4
 
-a) ...
+  a) ...
 
-   Using current division to find $I_{6\Omega}$:
+    Using current division to find $I_{6\Omega}$:
 
-   $$I_{6\Omega} = 2.4 \times \frac{30}{15} = 4.8A$$
+    $$I_{6\Omega} = 2.4 \times \frac{30}{15} = 4.8A$$
 
-   Dividing the current $I_{6\Omega}$ to find $i_o$:
+    Dividing the current $I_{6\Omega}$ to find $i_o$:
 
-   $$i_o = I_{6\Omega} \times \frac{10}{100} = 0.48A$$
+    $$i_o = I_{6\Omega} \times \frac{10}{100} = 0.48A$$
 
-   $$\boxed{i_{o} = 0.48}$$
+    $$
+    \boxed{i_{o} = 0.48}
+    $$
 
-   Using current division to find $I_{20\Omega}$:
+    Using current division to find $I_{20\Omega}$:
 
-   $$I_{20 \Omega} = 2.4 \times \frac{15}{30} = 1.2A$$
+    $$
+    I_{20 \Omega} = 2.4 \times \frac{15}{30} = 1.2A
+    $$
 
-   Using Ohm's law to find $v_o$:
+    Using Ohm's law to find $v_o$:
 
-   $$V = I \times R \to v_{o} = I_{20\Omega} \times 20 = 24V$$
+    $$
+    V = I \times R \to v_{o} = I_{20\Omega} \times 20 = 24V
+    $$
 
-b) ...
+  b) ...
 
-   The power used by the 6 $\Omega$ resistor:
+    The power used by the 6 $\Omega$ resistor:
 
-   $$P = I^2 \times R = (4.8)^2 \times 6 = 138.24 W$$
+    $$
+    P = I^2 \times R = (4.8)^2 \times 6 = 138.24 W
+    $$
 
-c) ...
+  c) ...
 
-   The power supplied by the current source using KVL on the leftmost mesh:
+    The power supplied by the current source using KVL on the leftmost mesh:
 
-   $$-V_{2.4A} + 20 \times 1.2 + 10 \times 1.2 = 0 \to V_{2.4A} = 36V$$
+      $$
+      -V_{2.4A} + 20 \times 1.2 + 10 \times 1.2 = 0 \to V_{2.4A} = 36V
+      $$
 
-   $$\therefore P_{2.4A} = V \times I = 36 \times 2.4 \to \boxed{P = 86.4 W}$$
+    $$
+    \therefore P_{2.4A} = V \times I = 36 \times 2.4 \to \boxed{P = 86.4 W}
+    $$

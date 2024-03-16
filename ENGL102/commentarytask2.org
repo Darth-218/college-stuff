@@ -60,7 +60,7 @@
     The author suggests that without fast fashion and people purchasing the world's
     economy will collapse and never recover.
 
-* Final
+** Fallacies Final 
 
   In the article, The author used a number of fallacies appealing to both pathos and
   logos. The first of the fallacies is when the author wrote "Fast fashion is almost
@@ -84,3 +84,35 @@
   is affected by many more complex aspects and will not easily collapse due to fast fashion.
   These fallacies greatly weakens creates a less persuading argument.
 
+
+* The counter argument
+
+** Author's argument
+
+*** Claim
+
+    - Millions depend on fast fashion for livelihood and revised business models
+      could fix its deficiencies.
+
+*** Reasons
+
+   1. Fast fashion changes our priorities and wastes time and money
+   2. The enviromental and social footprint of fast fashion is slowly killing
+      the planet
+
+** Components of a counter argument
+
+  1. Topic sentence showing the opposing point of view
+  2. Support and explaination of the opposing point of view
+  3. Achnowledging that the opposing POV has some merit
+  4. Rebuttal (showing weakness of the opposition using support evidence)
+  5. Concluding sentence (explaining why your argument is stronger than the opposition)
+
+** Counter argument final
+
+   The author claims that the fast fashion industry is reason behind millions of
+   workers' livelihood and that its business model needs to be revised. He also
+   points out that fast fashion is critiqued against moraly, as he states that
+   fast fashion is a waste of both time and money, and enviromentally, as
+   the author claims that fast fashion's enviromental footprint is slowly killing
+   the planet. As true as this may be to a certain extent, evidence suggests that
