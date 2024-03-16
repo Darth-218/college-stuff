@@ -1,0 +1,86 @@
+
+Student Name: Yahia Hany Gaber | Student ID: 231000412
+
+* Assignment #4
+
+** Question 1
+
+A function that returns the sum of two numbers.
+
+#+begin_src C
+
+#include <stdio.h>
+
+int AddNumbers(int a, int b);
+
+int main() {
+
+  int a, b;
+  scanf("%d %d", &a, &b);
+
+  printf("The sum of %d and %d is: %d", a, b, AddNumbers(a, b));
+
+  return 0;
+}
+
+int AddNumbers(int a, int b) {
+
+  return a + b;
+}
+
+#+end_src
+
+** Question 2
+
+A function that multiplies three numbers.
+
+#+begin_src C
+
+#include <stdio.h>
+
+int MultiplyThree(int a, int b, int c);
+
+int main() {
+
+  int a, b, c;
+  scanf("%d %d %d", &a, &b, &c);
+
+  printf("The product of %d, %d and %d is: ", a, b, c, MultiplyThree(a, b, c));
+
+  return 0;
+}
+
+int MultiplyThree(int a, int b, int c) {
+
+  return a * b * c;
+}
+
+#+end_src
+
+** Question 3
+
+A functionn to check if a number is even or odd.
+
+#+begin_src C
+
+#include <stdio.h>
+
+int IsEven(int a);
+
+int main() {
+
+  int a;
+  scanf("%d", &a);
+
+  printf("The number %d is ", a);
+  printf((!(IsEven(a))) ? "even.\n" : "odd.\n");
+}
+
+int IsEven(int a) {
+
+  return (a % 2);
+}
+
+#+end_src
+
+** Question 4

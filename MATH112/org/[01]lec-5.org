@@ -1,0 +1,31 @@
+
+date: 13-3-24
+
+* Lecture #5
+
+** Reduction Formula
+
+$$I_n = x^n e^x - n I_{n-1}$$
+
+$$I_3 = \int x^3 e^x \cdot dx$$
+$$I_3 = x^3 e^x - 3I_2$$
+$$I_2 = x^2 e^x - 2 I_1$$
+$$I_1 = x e^x - I_0$$
+$$I_0 = \int e^x \cdot dx$$
+$\therefore I_3 = x^3 e^x - 3(x^2 e^x - 2(x e^x p e^x + c))$$
+
+*** Example
+
+1. $\int (\ln (x))^3$
+
+$$u = (\ln(x))^n, \qquad dv = 1 \cdot dx$$
+$$du = n(\ln(x))^{n-1} \times \frac{1}{x} \cdot dx, \qquad v = x$$
+
+2. $\int \sec^n(x) \cdot dx$
+
+$$u = \sec^{n-2}(x), \qquad dv = \sec^2(x) \cdot dx$$
+$$du = (n - 2)sec^{n-3}(x) \sec(x) \tan(x), \qquad v = \tan(x)$$
+
+3. $\int tan^n(x) \cdot dx$
+
+$$\int tan^n(x) \cdot dx = \int tan^{n-2}(x) \tan^2(x) = \tan^{n-2}(x)(\sec^2(x) - 1)$$
