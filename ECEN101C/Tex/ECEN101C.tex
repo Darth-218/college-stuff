@@ -243,9 +243,83 @@ Conductance ($G$) is the receprocal quantity to the electrical resistance and is
 
 \section{Techincal methods for solving electrical circuits}
 
-  \subsection{Nodal analysis}
+\subsection{Mesh analysis}
 
-  \subsection{Mesh analysis}
+To find the current in a circuit using mesh analysis:
+
+\begin{enumerate}
+
+  \item Find the number of meshes in the circuit.
+  \item Assume a the current's direction in each mesh.
+  \item Apply KVL (mesh equations) accross each mesh's elements to find the value of each assumed current.
+
+\end{enumerate}
+
+\subsubsection{Mesh equations}
+
+\begin{itemize}
+
+  \item[-] The left hand side of the equation:
+
+    The left hand side contains the value of the voltage supplied by a source in a certain mesh.\\
+    If the voltage source supplies current (assumed current) then it's positive:
+
+    \[+V_a = \dots\]
+
+  \item[-] The right hand side of the equation:
+
+    The right hand side contains the current (assumed) multiplied by all elements' resistance it passes through:
+
+    \[\ldots = I_a(R_{ab} + R_{ac}) \ldots\]
+
+    If another current from a different mesh passes through some elements from the mesh started with:
+
+    \[\ldots - I_b(R_{ab})\]
+
+\end{itemize}
+
+Therefore the full mesh equation:
+
+\[+V_a = I_a(R_{ab} + R_{ac}) - I_b(R_{ab})\]
+
+% TODO add examples
+
+\subsection{Nodal analysis}
+
+To find the voltages in a circuit using nodl analysis:
+
+\begin{enumerate}
+
+  \item Find the number of nodes in the circuit.
+  \item Find the node connecting the most elements. (ground $\to V_{ref} = 0$)
+  \item Apply KCL (Node equations) at each node to find the voltages.
+
+\end{enumerate}
+
+% TODO Draw the example circuit
+
+\subsubsection{Node equations}
+
+\begin{itemize}
+
+  \item[-] The left hand side of the equation:
+    The left hand side contains the current (from a current source) at the node.
+
+    If the current is entering the node then it's positive:
+
+    \[+I_{s1} = \ldots\]
+
+  \item[-] The right hand side of the equation:
+    The right hand side contains the value of the current passing
+    through each branch between two nodes in terms of the voltage and the resistance.
+
+    \[\ldots = \frac{V_1 - 0}{R_1} + \frac{V_1 - V_2}{R_{12}}\]
+
+\end{itemize}
+
+Therefore the full node equation:
+
+\[+I{s1} = \frac{V_1 - 0}{R_1} + \frac{V_1 - V_2}{R_{12}}\]
 
 \section{Technical theorems}
   \subsection{Superposition}

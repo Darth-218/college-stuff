@@ -17,14 +17,16 @@
 \contentsline {subsubsection}{Current division}{6}{}%
 \contentsline {subsubsection}{Conductance}{7}{}%
 \contentsline {section}{\numberline {0.3}Techincal methods for solving electrical circuits}{7}{}%
-\contentsline {subsection}{\numberline {0.3.1}Nodal analysis}{7}{}%
-\contentsline {subsection}{\numberline {0.3.2}Mesh analysis}{7}{}%
-\contentsline {section}{\numberline {0.4}Technical theorems}{7}{}%
-\contentsline {subsection}{\numberline {0.4.1}Superposition}{7}{}%
-\contentsline {subsection}{\numberline {0.4.2}Source transfer}{7}{}%
-\contentsline {subsection}{\numberline {0.4.3}Thevenin's theory}{7}{}%
-\contentsline {subsection}{\numberline {0.4.4}Norton's theory}{7}{}%
-\contentsline {section}{\numberline {0.5}Energy storing elements}{7}{}%
-\contentsline {section}{\numberline {0.6}Diodes}{7}{}%
-\contentsline {subsection}{\numberline {0.6.1}Diode operations}{7}{}%
-\contentsline {subsection}{\numberline {0.6.2}Diode analysis}{7}{}%
+\contentsline {subsection}{\numberline {0.3.1}Mesh analysis}{7}{}%
+\contentsline {subsubsection}{Mesh equations}{7}{}%
+\contentsline {subsection}{\numberline {0.3.2}Nodal analysis}{7}{}%
+\contentsline {subsubsection}{Node equations}{8}{}%
+\contentsline {section}{\numberline {0.4}Technical theorems}{8}{}%
+\contentsline {subsection}{\numberline {0.4.1}Superposition}{8}{}%
+\contentsline {subsection}{\numberline {0.4.2}Source transfer}{8}{}%
+\contentsline {subsection}{\numberline {0.4.3}Thevenin's theory}{8}{}%
+\contentsline {subsection}{\numberline {0.4.4}Norton's theory}{8}{}%
+\contentsline {section}{\numberline {0.5}Energy storing elements}{8}{}%
+\contentsline {section}{\numberline {0.6}Diodes}{8}{}%
+\contentsline {subsection}{\numberline {0.6.1}Diode operations}{8}{}%
+\contentsline {subsection}{\numberline {0.6.2}Diode analysis}{8}{}%
