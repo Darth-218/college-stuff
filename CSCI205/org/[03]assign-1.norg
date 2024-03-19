@@ -1,0 +1,35 @@
+
+* Question 1
+
+@table
+  | Line  | Memory                                                        | Condition | Input | Output |
+  |       | itemsPurchased | originalPrice | discountedPrice | totalPrice | -         | -     | -                                                        |
+  | 1     | 25             | -             | -               | -          | -         | -     | -                                                        |
+  | 2     | -              | 2.0           | -               | -          | -         | -     | -                                                        |
+  | 3     | -              | -             | Declared        | -          | -         | -     | -                                                        |
+  | 4     | -              | -             | -               | 50.0       | -         | -     | -                                                        |
+  | 5     | -              | -             | -               | -          | False     | -     | -                                                        |
+  | 6  x  | -              | -             | -               | -          | -         | -     | -                                                        |
+  | 7  x  | -              | -             | -               | -          | -         | -     | -                                                        |
+  | 8     | -              | -             | -               | -          | True      | -     | -                                                        |
+  | 9     | -              | -             | 23.75           | -          |           | -     | -                                                        |
+  | 10    | -              | -             | -               | -          |           | -     | You get a 5% discount! Total price after discount: 23.75 |
+  | 11 x  | -              | -             | -               | -          | -         | -     | -                                                        |
+  | 12 x  | -              | -             | -               | -          | -         | -     | -                                                        |
+@end
+
+* Question 2
+
+@table
+  | Line  | Memory                                      | loop                   | Input | Output |
+  |       | n         | first  | second  | next     | i | Condition  | Iteration | -     | -                          |
+  | 1     | declared  | 0      | 1       | declared |   | -          | -         | -     | -                          |
+  | 2     | -         | -      | -       | -        |   | -          | -         | -     | Enter the number of terms: |
+  | 3     | 5         | -      | -       | -        |   | -          | -         | 5     | -                          |
+  | 4     | -         | -      | -       | -        |   | -          | -         | -     | Fibonacci Series: 0, 1     |
+  | 5     | -         | -      | -       | -        | 2 | True       | 1st       | -     | -                          |
+  | 6     | -         | -      | -       | 1        | - | -          | -         | -     | -                          |
+  | 7     | -         | -      | -       | -        | - | -          | -         | -     | , 1                        |
+  | 8     | -         | 1      | -       | -        | - | -          | -         | -     | -                          |
+  | 9     | -         | -      | 1       | -        | - | -          | -         | -     | -                          |
+@end
