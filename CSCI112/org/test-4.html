@@ -1,0 +1,144 @@
+<h1 id="table-of-contents">Table of Contents</h1>
+<ol type="1">
+<li><a href="#org91c9aca">Assignment #4</a>
+<ol type="1">
+<li><a href="#org93f5ca1">Question 1</a></li>
+<li><a href="#org3b294e8">Question 2</a></li>
+<li><a href="#orgdaccaa1">Question 3</a></li>
+<li><a href="#orga53bbea">Question 4</a></li>
+<li><a href="#org0945c1c">Question 5</a></li>
+</ol></li>
+</ol>
+<p>Student Name: Yahia Hany Gaber | Student ID: 231000412</p>
+<p><a id="org91c9aca"></a></p>
+<h1 id="assignment-4">Assignment #4</h1>
+<p><a id="org93f5ca1"></a></p>
+<h2 id="question-1">Question 1</h2>
+<p>A function that returns the sum of two numbers.</p>
+<pre><code>#include &lt;stdio.h&gt;
+
+int AddNumbers(int a, int b);
+
+int main() {
+
+  int a, b;
+  scanf(&quot;%d %d&quot;, &amp;a, &amp;b);
+
+  printf(&quot;The sum of %d and %d is: %d&quot;, a, b, AddNumbers(a, b));
+
+  return 0;
+}
+
+int AddNumbers(int a, int b) {
+
+  return a + b;
+}</code></pre>
+<p><a id="org3b294e8"></a></p>
+<h2 id="question-2">Question 2</h2>
+<p>A function that multiplies three numbers.</p>
+<pre><code>#include &lt;stdio.h&gt;
+
+int MultiplyThree(int a, int b, int c);
+
+int main() {
+
+  int a, b, c;
+  scanf(&quot;%d %d %d&quot;, &amp;a, &amp;b, &amp;c);
+
+  printf(&quot;The product of %d, %d and %d is: &quot;, a, b, c, MultiplyThree(a, b, c));
+
+  return 0;
+}
+
+int MultiplyThree(int a, int b, int c) {
+
+  return a * b * c;
+}</code></pre>
+<p><a id="orgdaccaa1"></a></p>
+<h2 id="question-3">Question 3</h2>
+<p>A functionn to check if a number is even or odd.</p>
+<pre><code>#include &lt;stdio.h&gt;
+
+int IsEven(int a);
+
+int main() {
+
+  int a;
+  scanf(&quot;%d&quot;, &amp;a);
+
+  printf(&quot;The number %d is &quot;, a);
+  printf((!(IsEven(a))) ? &quot;even.\n&quot; : &quot;odd.\n&quot;);
+}
+
+int IsEven(int a) {
+
+  return (a % 2);
+}</code></pre>
+<p><a id="orga53bbea"></a></p>
+<h2 id="question-4">Question 4</h2>
+<p>A function to calculate tac baased on a 5% rate.</p>
+<pre><code>#include &lt;stdio.h&gt;
+
+void CalculateAndPrintDetails(double AmountPaid);
+
+int main() {
+
+  double AmountPaid;
+  scanf(&quot;%lf&quot;, &amp;AmountPaid);
+
+  CalculateAndPrintDetails(AmountPaid);
+}
+
+void CalculateAndPrintDetails(double AmountPaid) {
+
+  double tax, TotalProfit, TotalPaid;
+
+  tax = AmountPaid * 0.05;
+
+  if (tax &lt; 5) {tax = 5;}
+  else if (tax &gt; 100) {tax = 100;}
+
+  TotalProfit = AmountPaid - tax;
+
+  printf(&quot;The amount paid is: %lf\nThe tax is: %lf\nThe total profit is: %lf\n&quot;, AmountPaid, tax, TotalProfit);
+}</code></pre>
+<p><a id="org0945c1c"></a></p>
+<h2 id="question-5">Question 5</h2>
+<p>A function that calculates the total cost after a discount then
+calculates the tax and profit.</p>
+<pre><code>#include &lt;stdio.h&gt;
+
+void CalculateAndPrintDetails(double AmountPaid);
+void CalculateDiscountedTotal(double OriginalAmount, double DiscountRate);
+
+int main() {
+
+  double AmountPaid;
+  scanf(&quot;%lf&quot;, &amp;AmountPaid);
+
+  double DiscountRate;
+  scanf(&quot;%lf&quot;, &amp;DiscountRate);
+
+  CalculateDiscountedTotal(AmountPaid, DiscountRate);
+  CalculateAndPrintDetails(AmountPaid);
+}
+
+void CalculateAndPrintDetails(double AmountPaid) {
+
+  double tax, TotalProfit, TotalPaid;
+
+  tax = AmountPaid * 0.05;
+
+  if (tax &lt; 5) {tax = 5;}
+  else if (tax &gt; 100) {tax = 100;}
+
+  TotalProfit = AmountPaid - tax;
+
+  printf(&quot;The amount paid is: %lf\nThe tax is: %lf\nThe total profit is: %lf\n&quot;, AmountPaid, tax, TotalProfit);
+}
+
+void CalculateDiscountedTotal(double OriginalAmount, double DiscountRate) {
+
+  double new = OriginalAmount - OriginalAmount * 0.01 * DiscountRate;
+  printf(&quot;New price after discount: %lf\n&quot;, new);
+}</code></pre>
