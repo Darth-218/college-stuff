@@ -1,0 +1,82 @@
+date: 19-3-24
+
+* Solving on mesh and nodal analysis
+
+** Mesh analysis example
+
+@example
+                 4Id
+          |-------O+------|
+          |   ∩1    e->   |
+          |               |
+          |   5       10  |
+     |----|---Ω---|---Ω---|
+     |    |  <-b  |  <-c  |
+     |    |       |       |
+   19↑ ∩4 Ω40 ∩3  ↑2Ib ∩2 ∓240
+     |    |       |       |
+     |    |  a->  |  <-d  |
+     |----|-------|-------|
+@end
+
+   Using mesh analysis, find the value and type of each power source.
+
+   assuming all mesh currents are clockwise.
+
+   $I₄ = 19A -> 1$
+
+   $Ia = I₄ - I₃ = 19 - I₃$
+   $Ib = I₁ - I₃$
+   $Ic = I₁ - I₂$
+   $Id = I₂$
+   $Ie = I₁$
+
+   Mesh eq1:
+
+   $4Id = I₁(5 + 10) - I₂(10) - I₃(5) -> 4I₂ = I₁(5 + 10) - I₂(10) - I₃(5)$
+   $0 = 15I₁ - 14I₂ - 5I₃ -> 2$
+
+   Between I₂ and I₃: (Supermesh)
+
+   $I₂ - I₃ = 2Ib = 2I₁ - 2I₃$
+   $∴ 0 = 2I₁ - I₂ - I₃$
+
+   Supermesh equation:
+
+   $240 = I₂(10) + I₃(5 + 40) - I₄(40) - I₁(15)$
+   $∴ 1000 = -15I₁ + 10I₂ + 4I₃$
+
+   by solving the equation 2, 3 and 4
+
+   $I₁ = 18A, I₂ = 10A, I₃ = 26A$
+
+** Nodal analysis example
+
+@example
+
+  V₂  15   V₁
+   |---→---|
+   |       |
+   |   4   |   8  -50V (auxilary node)
+   |---Ω---|---Ω---|
+   |       |       |
+  1Ω       |       |
+   |       Ω     50∓
+   ±100    |       |
+   |       |       |
+   |-------|-------|
+           o
+          Vref
+@end
+
+   Nodal equation at V₁:
+
+   $15 = (V₁+50)/8 + (V₁-0)/4 + (V₁-V₂)/8$
+
+   Nodal equation at V₂:
+
+   $-15 (V₂-V₁)/4 + (V₂-100)/1$
+
+   By solving the two equations:
+
+   $V₁ = 1030/23, V₂ = 1770/23$
