@@ -5,82 +5,152 @@ Student Name: Yahia Hany Gaber | Student ID: 231000412
 
 ** Question 1
 
-A function that returns the sum of two numbers.
+  A function that returns the sum of two numbers.
 
-#+begin_src C
+  #+begin_src C
+  #include <stdio.h>
 
-#include <stdio.h>
+  int AddNumbers(int a, int b);
 
-int AddNumbers(int a, int b);
+  int main() {
 
-int main() {
+    int a, b;
+    scanf("%d %d", &a, &b);
 
-  int a, b;
-  scanf("%d %d", &a, &b);
+    printf("The sum of %d and %d is: %d", a, b, AddNumbers(a, b));
 
-  printf("The sum of %d and %d is: %d", a, b, AddNumbers(a, b));
+    return 0;
+  }
 
-  return 0;
-}
+  int AddNumbers(int a, int b) {
 
-int AddNumbers(int a, int b) {
-
-  return a + b;
-}
-
-#+end_src
+    return a + b;
+  }
+  #+end_src
 
 ** Question 2
 
-A function that multiplies three numbers.
+  A function that multiplies three numbers.
 
-#+begin_src C
+  #+begin_src C
+  #include <stdio.h>
 
-#include <stdio.h>
+  int MultiplyThree(int a, int b, int c);
 
-int MultiplyThree(int a, int b, int c);
+  int main() {
 
-int main() {
+    int a, b, c;
+    scanf("%d %d %d", &a, &b, &c);
 
-  int a, b, c;
-  scanf("%d %d %d", &a, &b, &c);
+    printf("The product of %d, %d and %d is: ", a, b, c, MultiplyThree(a, b, c));
 
-  printf("The product of %d, %d and %d is: ", a, b, c, MultiplyThree(a, b, c));
+    return 0;
+  }
 
-  return 0;
-}
+  int MultiplyThree(int a, int b, int c) {
 
-int MultiplyThree(int a, int b, int c) {
-
-  return a * b * c;
-}
-
-#+end_src
+    return a * b * c;
+  }
+  #+end_src
 
 ** Question 3
 
-A functionn to check if a number is even or odd.
+  A functionn to check if a number is even or odd.
 
-#+begin_src C
+  #+begin_src C
+  #include <stdio.h>
 
-#include <stdio.h>
+  int IsEven(int a);
 
-int IsEven(int a);
+  int main() {
 
-int main() {
+    int a;
+    scanf("%d", &a);
 
-  int a;
-  scanf("%d", &a);
+    printf("The number %d is ", a);
+    printf((!(IsEven(a))) ? "even.\n" : "odd.\n");
+  }
 
-  printf("The number %d is ", a);
-  printf((!(IsEven(a))) ? "even.\n" : "odd.\n");
-}
+  int IsEven(int a) {
 
-int IsEven(int a) {
-
-  return (a % 2);
-}
-
-#+end_src
+    return (a % 2);
+  }
+  #+end_src
 
 ** Question 4
+
+   A function to calculate tac baased on a 5% rate.
+
+  #+begin_src C
+
+  #include <stdio.h>
+
+  void CalculateAndPrintDetails(double AmountPaid);
+
+  int main() {
+
+    double AmountPaid;
+    scanf("%lf", &AmountPaid);
+
+    CalculateAndPrintDetails(AmountPaid);
+  }
+
+  void CalculateAndPrintDetails(double AmountPaid) {
+
+    double tax, TotalProfit, TotalPaid;
+
+    tax = AmountPaid * 0.05;
+
+    if (tax < 5) {tax = 5;}
+    else if (tax > 100) {tax = 100;}
+
+    TotalProfit = AmountPaid - tax;
+
+    printf("The amount paid is: %lf\nThe tax is: %lf\nThe total profit is: %lf\n", AmountPaid, tax, TotalProfit);
+  }
+   #+end_src
+
+** Question 5
+
+   A function that calculates the total cost after a discount then calculates the tax
+   and profit.
+
+  #+begin_src C
+
+  #include <stdio.h>
+
+  void CalculateAndPrintDetails(double AmountPaid);
+  void CalculateDiscountedTotal(double OriginalAmount, double DiscountRate);
+
+  int main() {
+
+    double AmountPaid;
+    scanf("%lf", &AmountPaid);
+
+    double DiscountRate;
+    scanf("%lf", &DiscountRate);
+
+    CalculateDiscountedTotal(AmountPaid, DiscountRate);
+    CalculateAndPrintDetails(AmountPaid);
+  }
+
+  void CalculateAndPrintDetails(double AmountPaid) {
+
+    double tax, TotalProfit, TotalPaid;
+
+    tax = AmountPaid * 0.05;
+
+    if (tax < 5) {tax = 5;}
+    else if (tax > 100) {tax = 100;}
+
+    TotalProfit = AmountPaid - tax;
+
+    printf("The amount paid is: %lf\nThe tax is: %lf\nThe total profit is: %lf\n", AmountPaid, tax, TotalProfit);
+  }
+
+  void CalculateDiscountedTotal(double OriginalAmount, double DiscountRate) {
+
+    double new = OriginalAmount - OriginalAmount * 0.01 * DiscountRate;
+    printf("New price after discount: %lf\n", new);
+  }
+   #+end_src

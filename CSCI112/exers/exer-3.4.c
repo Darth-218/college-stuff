@@ -7,21 +7,21 @@ int main() {
 
   switch (day) {
 
-    case 1:
+  case 1:
 
-      printf("Sunday");
+    printf("Sunday");
 
-    case 2:
+  case 2:
 
-      printf("Monday");
+    printf("Monday");
 
-    case 3:
+  case 3:
 
-      printf("Tuesday");
+    printf("Tuesday");
 
-    default:
-      
-      printf("Not available")
+  default:
+
+    printf("Not available");
   }
 
   return 0;
