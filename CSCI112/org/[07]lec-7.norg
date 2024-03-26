@@ -1,0 +1,38 @@
+date: 25-3-24
+
+* Lecture 7
+
+** Pointers
+
+*** Variables vs Pointers
+
+    - A memory address stores a variable with a specific data type.
+    - A Pointer stores the memory address of a specific "variable".
+
+    @code c
+
+    int x = 5;
+    int *ptr = x;
+
+    printf("%d %d", x, *ptr); // Outputs -> "5 5"
+
+    // Addresses can be assigned directly to pointers.
+
+    ptr = &x // Stores the memory address of x directly
+
+    @end
+
+    - The variable `ptr` contains the memory address of the variable `x` while `*ptr` contains the value of `x`.
+    - `*` → value at <pointer>, Therefore `*ptr` returns the value stored at the memory address `ptr`.
+    - Pointers have the format specifier of `%p`.
+    - Pointers can point at other pointers
+
+*** Pointer operations
+
+**** Pointer addition\\subtraction
+
+     Let a pointer of an int size `ptr` equal 1000.
+
+     Adding to the pointer through `++ptr` the pointer will equal 1004
+     since pointers are incremented and decremented by the size of
+     their data type.

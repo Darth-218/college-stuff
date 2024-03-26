@@ -1,17 +1,18 @@
 #include <stdio.h>
 
-int IsEven(int a);
-
 int main() {
 
-  int a;
-  scanf("%d", &a);
+  int arr1[3] = {1, 2, 3};
+  int arr2[3];
 
-  printf("The number %d is ", a);
-  printf((!(IsEven(a))) ? "even.\n" : "odd.\n");
-}
+  for (int x = 0; x < 3; x++) {
 
-int IsEven(int a) {
+    arr2[x] = arr1[x];
+  }
 
-  return (a % 2);
+  for (int y = 0; y < 3; y++) {
+
+    printf("%d ", arr2[y]);
+  }
+  return 0;
 }

@@ -1,0 +1,28 @@
+date: 13-3-24
+
+* Reduction Formula
+
+  *To find the reduciton formula:*
+
+  - Integrate by parts in a way such that the original
+    function is integrated for a number of times each time
+    with a lower power.
+
+  -- Examples:
+
+  ~ $∫cos^n(x) .dx$
+
+  $= cos^{n-1}(x) cos(x) .dx$
+
+  $u = cos^{n-1}(x) -> du = (n-1)cos^{n-2}(x) sin(x) .dx$
+  $v = sin(x) <- dv = cos(x) .dx$
+
+  $∫cos^{n}(x) .dx = cos^{n-1}(x) sin(x) - ∫sin(x)² (n-1)cos^{n-2}(x) .dx$
+  $∫sin(x)² (n-1)cos^{n-2}(x) .dx = ∫(1 - cos²(x)) (n-1)cos^{n-2}(x) .dx$
+  $∫(1 - cos²(x)) (n-1)cos^{n-2}(x) .dx = ∫(n-1)cos^{n-2}(x) - (n-1)cos^{n}(x)$
+  $∫(n-1)cos^{n-2}(x) - (n-1)cos^{n}(x) = ∫(n-1)cos^{n-2}(x) - ∫(n-1)cos^{n}(x)$
+  $∫cos^{n}(x) .dx = cos^{n-1}(x) sin(x) - ∫(n-1)cos^{n-2}(x) - ∫(n-1)cos^{n}(x)$
+  $∫cos^{n}(x) + ∫(n-1)cos^{n}(x) = cos^{n-1}(x) sin(x) - ∫(n-1)cos^{n-2}(x)$
+  $∫(n)cos^{n}(x) = cos^{n-1}(x) sin(x) - (n-1)∫cos^{n-2}(x)$
+  $∫cos^{n}(x) = (1/n)cos^{n-1}(x) sin(x) - ((n-1)/n)∫cos^{n-2}(x)$
+
