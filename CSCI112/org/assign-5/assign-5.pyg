@@ -1,0 +1,41 @@
+#include <stdio.h>
+
+int max(int *arr, int start, int end, int maxind);
+
+int main() {
+
+  int limit;
+
+  printf("Enter the number of array elements: ");
+  scanf("%d", &limit);
+
+  int arr[limit];
+  for (int x = 0; x < limit; x++) {
+
+    int a;
+    printf("Enter element %d: ", x + 1);
+    scanf("%d", &a);
+    arr[x] = a;
+  }
+
+  printf("The maximum element is: %d\n", max(arr, 0, limit, 0));
+}
+
+int max(int *arr, int start, int end, int maxind) {
+
+  int _max = arr[maxind];
+
+  if (start < end) {
+
+    if (arr[start] > _max) {
+
+      _max = arr[start];
+      max(arr, start + 1, end, start);
+    }
+    else {
+
+      max(arr, start + 1, end, maxind);
+    }
+  }
+  else {return _max;}
+}
