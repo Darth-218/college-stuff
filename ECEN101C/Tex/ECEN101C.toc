@@ -1,32 +1,33 @@
-\contentsline {section}{\numberline {0.1}Introduction to electric circuits}{3}{}%
-\contentsline {subsection}{\numberline {0.1.1}Volt classification}{3}{}%
-\contentsline {subsection}{\numberline {0.1.2}Electric circuit components}{3}{}%
-\contentsline {subsection}{\numberline {0.1.3}Basic circuit quantities}{4}{}%
-\contentsline {subsection}{\numberline {0.1.4}Circuit types}{4}{}%
-\contentsline {subsection}{\numberline {0.1.5}Basic circuit elements}{5}{}%
-\contentsline {section}{\numberline {0.2}Basic circuit laws}{5}{}%
-\contentsline {subsection}{\numberline {0.2.1}Ohm's law}{5}{}%
-\contentsline {subsubsection}{Power types and the conventional sign rule}{5}{}%
-\contentsline {subsection}{\numberline {0.2.2}Kirchhoff's laws}{6}{}%
-\contentsline {subsubsection}{Kirchhoff's voltage law}{6}{}%
-\contentsline {subsubsection}{Series connection}{6}{}%
-\contentsline {subsubsection}{Voltage division}{6}{}%
-\contentsline {subsubsection}{Kirchhoff's current law}{6}{}%
-\contentsline {subsubsection}{Parallel connection}{6}{}%
-\contentsline {subsubsection}{Current division}{7}{}%
-\contentsline {subsubsection}{Conductance}{7}{}%
-\contentsline {subsection}{\numberline {0.2.3}Examples}{7}{}%
-\contentsline {section}{\numberline {0.3}Techincal methods for solving electrical circuits}{10}{}%
-\contentsline {subsection}{\numberline {0.3.1}Mesh analysis}{10}{}%
-\contentsline {subsubsection}{Mesh equations}{10}{}%
-\contentsline {subsection}{\numberline {0.3.2}Nodal analysis}{11}{}%
-\contentsline {subsubsection}{Node equations}{11}{}%
-\contentsline {section}{\numberline {0.4}Technical theorems}{12}{}%
-\contentsline {subsection}{\numberline {0.4.1}Superposition}{12}{}%
-\contentsline {subsection}{\numberline {0.4.2}Source transfer}{12}{}%
-\contentsline {subsection}{\numberline {0.4.3}Thevenin's theory}{12}{}%
-\contentsline {subsection}{\numberline {0.4.4}Norton's theory}{12}{}%
-\contentsline {section}{\numberline {0.5}Energy storing elements}{12}{}%
-\contentsline {section}{\numberline {0.6}Diodes}{12}{}%
-\contentsline {subsection}{\numberline {0.6.1}Diode operations}{12}{}%
-\contentsline {subsection}{\numberline {0.6.2}Diode analysis}{12}{}%
+\contentsline {chapter}{\numberline {1}Introduction to electric circuits}{5}{}%
+\contentsline {section}{\numberline {1.1}Volt classification}{5}{}%
+\contentsline {section}{\numberline {1.2}Electric circuit components}{5}{}%
+\contentsline {section}{\numberline {1.3}Basic circuit quantities}{6}{}%
+\contentsline {section}{\numberline {1.4}Circuit types}{6}{}%
+\contentsline {section}{\numberline {1.5}Basic circuit elements}{7}{}%
+\contentsline {chapter}{\numberline {2}Basic circuit laws}{9}{}%
+\contentsline {section}{\numberline {2.1}Ohm's law}{9}{}%
+\contentsline {subsubsection}{Power types and the conventional sign rule}{9}{}%
+\contentsline {section}{\numberline {2.2}Kirchhoff's laws}{10}{}%
+\contentsline {subsection}{\numberline {2.2.1}Kirchhoff's voltage law}{10}{}%
+\contentsline {subsection}{\numberline {2.2.2}Series connection}{10}{}%
+\contentsline {subsubsection}{Voltage division}{10}{}%
+\contentsline {section}{\numberline {2.3}Kirchhoff's current law}{10}{}%
+\contentsline {subsection}{\numberline {2.3.1}Parallel connection}{10}{}%
+\contentsline {subsubsection}{Current division}{11}{}%
+\contentsline {subsection}{\numberline {2.3.2}Conductance}{11}{}%
+\contentsline {section}{\numberline {2.4}Examples}{12}{}%
+\contentsline {chapter}{\numberline {3}Techincal methods for solving electrical circuits}{17}{}%
+\contentsline {section}{\numberline {3.1}Mesh analysis}{17}{}%
+\contentsline {subsection}{\numberline {3.1.1}Mesh equations}{17}{}%
+\contentsline {section}{\numberline {3.2}Nodal analysis}{18}{}%
+\contentsline {subsection}{\numberline {3.2.1}Node equations}{18}{}%
+\contentsline {subsection}{\numberline {3.2.2}Examples}{19}{}%
+\contentsline {chapter}{\numberline {4}Technical theorems}{21}{}%
+\contentsline {section}{\numberline {4.1}Superposition}{21}{}%
+\contentsline {section}{\numberline {4.2}Source transfer}{21}{}%
+\contentsline {section}{\numberline {4.3}Thevenin's theory}{21}{}%
+\contentsline {section}{\numberline {4.4}Norton's theory}{21}{}%
+\contentsline {chapter}{\numberline {5}Energy storing elements}{23}{}%
+\contentsline {chapter}{\numberline {6}Diodes}{25}{}%
+\contentsline {section}{\numberline {6.1}Diode operations}{25}{}%
+\contentsline {section}{\numberline {6.2}Diode analysis}{25}{}%
