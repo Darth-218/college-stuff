@@ -23,4 +23,3 @@ date: 15-2-23
 | Quizzes (best 3) | 15    |
 | Assignments      | 15    |
 | Attendance       | 20    |
-
