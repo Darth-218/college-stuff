@@ -1,0 +1,187 @@
+\documentclass[a4paper]{book}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\def\arraystretch{2.4}
+\author{Yahia Gaber}
+\title{MATH112}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\chapter{Integration}
+
+Integration is the anti-derivative of a function.
+
+\[\frac{d}{dx}(F(x)) = f(x) \leftrightarrow \int f(x) = F(x)\]
+
+\section{Basic integration formulas}
+
+\begin{center}
+
+  \begin{tabular}{|c|c|}
+
+    \hline
+    $\displaystyle{\int}$ & $\displaystyle{\frac{d}{dx}}$ \\ \hline \hline
+    $\displaystyle{x^n \cdot dx}$ & $\displaystyle{\frac{x^{n + 1}}{n + 1}}$ \\ \hline
+    $\displaystyle{\frac{1}{f(x)} \cdot dx}$ & $\displaystyle{\ln(f'(x))}$ \\ \hline
+    $\displaystyle{a^x \cdot dx}$ & $\displaystyle{\frac{a^x}{\ln(a)}}$ \\
+    \hline
+
+  \end{tabular}
+
+\end{center}
+
+\section{Basic trignometric identites}
+
+\begin{center}
+
+  \begin{tabular}{|c|c|}
+
+    \hline
+    $\displaystyle{\sin^2(x) + \cos^2(x)}$ & $\displaystyle{1}$ \\ \hline \hline
+    $\displaystyle{\cosh^2(x) - \sinh^2(x)}$ & $\displaystyle{1}$ \\ \hline \hline
+    $\displaystyle{\sec^2(x) - \tan^2(x)}$ & $\displaystyle{1}$ \\ \hline \hline
+    $\displaystyle{\tanh^2(x) + \operatorname{sech}^2(x)}$ & $\displaystyle{1}$ \\ \hline \hline
+    $\displaystyle{\csc^2(x) - \cot^2(x)}$ & $\displaystyle{1}$ \\ \hline \hline
+    \hline
+
+  \end{tabular}
+
+\end{center}
+
+\chapter{Integration by Substitution}
+
+Integrating by substitution is considered a "backwards" chain rule.
+
+\begin{align*}
+\frac{d}{dx}\sin(x^2) & = \cos(x^2) \cdot 2x \\
+\int (\cos(x^2) \cdot 2x) \cdot dx & = \sin(x^2) + C
+\end{align*}
+
+\noindent To easily integrate, $x^2$ can be considered as $u$ and $2x \cdot dx$ as $du$ which can be easily integrated.
+
+\[\int \cos(u) \cdot du = \sin(u) + C\]
+
+After re-substituting:
+
+\[\int \cos(u) \cdot du = \sin(u) + C \to \sin(x^2) + C\]
+
+Therefore to integrate by substitution, the derivatice of the part of the function substituted
+needs to be present for the integration to be successful.
+
+\subsubsection{Examples}
+
+\begin{enumerate}
+
+\item $\displaystyle{\int \frac{1}{x \times \ln(x)} \cdot dx}$
+
+  \[u = \ln(x), \qquad du = \frac{1}{x} \cdot dx\]
+  \[\int \frac{1}{u} \cdot du = \ln(u) + c = \ln(\ln(x)) + C\]
+
+\item $\displaystyle{\int \frac{e^{\tan(x)}}{\cos^2(x)} \cdot dx}$
+
+  \[\int \frac{e^{\tan(x)}}{\cos^2(x)} \cdot dx = e^{\tan(x)} \times \sec^2(x) \cdot dx\]
+  \[u = \tan(x), \qquad du = \sec^2(x) \cdot dx\]
+  \[\int e^u \cdot du = e^u + C = e^{\tan(x)} + C\]
+
+\item $\displaystyle{\int \frac{e^{\frac{1}{x}}}{x^2} \cdot dx}$
+
+  \[u = \frac{1}{x}, \qquad du = -\frac{1}{x^2} \cdot dx\]
+
+  \[-\int e^u \cdot du = -e^u + C = -e^{\frac{1}{x}} + C\]
+
+\item $\displaystyle{\int x^3 \sqrt{x^2 - 1} \cdot dx}$
+
+  \[\int x \times x^2 \sqrt{x^2 - 1} \cdot dx\]
+  \[u = x^2 - 1 \to x^2 = u + 1, \qquad du = 2x \cdot dx\]
+  \[\frac{1}{2} \times \int (u + 1) \sqrt{u} \cdot du = \ldots\]
+
+\end{enumerate}
+
+\subsubsection{Integration Shortcuts}
+
+\begin{center}
+\begin{tabular} {l l}
+
+
+  $\displaystyle{\int \frac{z'}{z}}$ & $\displaystyle{= \ln(z) + C}$ \\
+  $\displaystyle{\int \frac{z'}{\sqrt{z}}}$ & $\displaystyle{= 2 \sqrt{z} + C}$ \\
+  $\displaystyle{\int z^n \times z'}$ & $\displaystyle{= \frac{z^{n + 1}}{n + 1} + C}$\\
+
+\end{tabular}
+\end{center}
+
+\chapter{Integration by Parts}
+
+Integration by parts is used to find the integral of the product of two functions.
+
+\begin{align*}
+  d(u \times v) & = u \cdot dv + v \cdot du\\
+  \therefore u \cdot dv & = d(u \times v) - v \cdot du
+\end{align*}
+
+By integrating both sides of the equation.
+
+\[\int u \cdot dv = \int d(u \times v) - \int v \cdot du\]
+
+Therefore:
+\[\boxed{\int u \cdot dv = \int uv - \int v \cdot du}\]
+
+\subsubsection{Examples}
+
+\begin{itemize}
+
+  \item[-] $\displaystyle{x \times e^x \cdot dx}$
+
+    \begin{align*}
+      u & = x, & du & = 1 \cdot dx \\
+      v & = e^x, & dv & = e^x
+    \end{align*}
+
+    \begin{align*}
+      \therefore \int x \times e^x & = x \times e^x - \int e^x \cdot dx \\
+                                   & = x \times e^x - e^x + C
+    \end{align*}
+
+\end{itemize}
+
+\section{First Category}
+
+A polynomial function and a function easily integrated.
+
+\subsubsection{Examples}
+
+\begin{enumerate}
+
+  \item $\displaystyle{\int x \times \cos(2x) \cdot dx}$
+
+    \begin{align*}
+      u & = x & du & = 1 \cdot dx \\
+      v & = \frac{\sin(2x)}{2} & dv & = \cos(2x)
+    \end{align*}
+
+    \begin{align*}
+      \int x \times \cos(2x) & = x \times \frac{\sin(2x)}{2} - \int \frac{\sin(2x)}{2} \cdot dx \\
+                             & = \frac{x \sin(2x)}{2} + \frac{\cos(2x)}{4}
+    \end{align*}
+
+  \item $\displaystyle{\int x \times \sec^2(x) \cdot dx}$
+
+    \begin{align*}
+      u & = x & du & = 1 \cdot dx \\
+      v & = \tan(x) & dv & = \sec^2(x)
+    \end{align*}
+
+    \begin{align*}
+      \int x \times \sec^2(x) & = x \times \tan(x) - \int \tan(x) \cdot dx \\
+                              & = x \tan(x) - \int \frac{\sin(x)}{\cos(x)} \cdot dx \\
+                              & = x \tan(x) + \ln(\sec(x))
+    \end{align*}
+
+\end{enumerate}
+
+\subsection{Tabular form}
+
+\end{document}

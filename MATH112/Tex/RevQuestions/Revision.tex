@@ -1,0 +1,261 @@
+\documentclass{report}
+\usepackage{amsmath}
+\DeclareMathOperator{\sech}{sech}
+\DeclareMathOperator{\arcsec}{arcsec}
+\DeclareMathOperator{\arccot}{arccot}
+\DeclareMathOperator{\arccsc}{arccsc}
+\DeclareMathOperator{\arcsinh}{arcsinh}
+\DeclareMathOperator{\arccosh}{arccosh}
+\DeclareMathOperator{\arctanh}{arctanh}
+\usepackage[a4paper]{geometry}
+
+\begin{document}
+
+  % TODO
+  \begin{itemize}
+
+    \item[-] $\displaystyle{\int \frac{1}{1 + e^{2x}} \cdot dx}$
+
+      \begin{align*}
+        a & = 1 & x^2 & = e^{2x} \to x = e^x
+      \end{align*}
+
+      \[= \frac{1}{a} \arctan(\frac{x}{a}) = \arctan(e^{x})\]
+
+  \end{itemize}
+
+  \newpage
+
+  \begin{itemize}
+    \item[-] $\displaystyle{\int \sqrt{\frac{\cosh(x) - \sinh(x)}{\cosh(x) + \sinh(x)}} \cdot dx}$
+
+      \[\cosh(x) + \sinh(x) = e^x\]
+      \[\cosh(x) - \sinh(x) = e^{-x}\]
+
+      \[\int \sqrt{\frac{e^{-x}}{e^x}} = \int \sqrt{e^{-2x}} = \int e^{-x}\]
+      \[= -e^{-x} + C\]
+
+  \end{itemize}
+
+  \newpage
+
+  \begin{itemize}
+    \item[-] $\displaystyle{\int \frac{1}{\sqrt{2 - x^2}} \cdot dx}$
+
+      \begin{align*}
+        a^2 & = 2 \to a = \sqrt{2} & x^2 & = x^2 \to x = x
+      \end{align*}
+
+      \[= \arcsin(\frac{x}{a}) = \arcsin(\frac{x}{\sqrt{2}}) + C\]
+
+  \end{itemize}
+
+  \newpage
+
+  \begin{itemize}
+    \item[-] $\displaystyle{\int \sqrt{e^x} \cdot dx}$
+
+      \begin{align*}
+        &= \int e^{\frac{1}{2}x}\\ &= \frac{e^{\frac{1}{2}x}}{\frac{1}{2}}\\ &= 2 \sqrt{e^x} + C
+      \end{align*}
+
+  \end{itemize}
+
+  \newpage
+
+  \begin{itemize}
+    \item[-] $\displaystyle{\int \frac{1}{x \sqrt{x^2 - 2}} \cdot dx}$
+
+      \begin{align*}
+        a^2 & = 2 \to a = \sqrt{2} & x^2 & = x^2 \to x = x
+      \end{align*}
+
+      \begin{align*}
+      & = \frac{1}{a}\arcsec(\frac{x}{a})\\ & =\frac{1}{\sqrt{2}}\arcsec(\frac{x}{\sqrt{2}})
+      \end{align*}
+  \end{itemize}
+
+  \newpage
+
+  \begin{itemize}
+    \item[-] $\displaystyle{\int \frac{1}{x^2 + 6x + 13} \cdot dx}$
+
+      \begin{align*}
+        & = \int \frac{1}{(x + \frac{6}{2})^2 - (\frac{6}{2})^2 + 13}\\ \\
+        & = \int \frac{1}{(x + 3)^2 + 4}\\ \\
+        & = \frac{1}{2} \arctan(\frac{x + 3}{2}) + C
+      \end{align*}
+  \end{itemize}
+
+  \newpage
+
+  \begin{itemize}
+    \item[-] $\displaystyle{\int (e^x + 3^x)^2 \cdot dx}$
+      \begin{align*}
+        & = \int e^{2x} + 9^x + 2 \times e^x \times 3^x\\ \\
+        & = \int e^{2x} + 9^x + 2 \times 3^x e^x \\ \\
+        & = \frac{e^{2x}}{2} + \frac{9^x}{\ln(9)} + 2 \times \frac{3^x e^x}{1 + \ln(3)} + C
+      \end{align*}
+  \end{itemize}
+
+  \newpage
+
+  \begin{itemize}
+    \item[-] $\displaystyle{\int \frac{1}{\sqrt{x^2 + 4x + 5}} \cdot dx}$
+      \begin{align*}
+        & = \int \frac{1}{\sqrt{(x + 2)^2 + 1}} \cdot dx \\ \\
+        & = \arcsinh((x + 2)) + C
+      \end{align*}
+  \end{itemize}
+
+  \newpage
+
+  \begin{itemize}
+    \item[-] $\displaystyle{\int \frac{1}{4 + 16x^2} \cdot dx}$
+      \begin{align*}
+        & = \int \frac{1}{16 (x^2 + \frac{4}{16})} \\ \\
+        & = \frac{1}{16} \times 2 \arctan(2x) + C \\ \\
+        & = \frac{1}{8} \times \arctan(2x) + C
+      \end{align*}
+  \end{itemize}
+
+  \newpage
+
+  \begin{itemize}
+    \item[-] $\displaystyle{\int \frac{1}{\sqrt{x}(\sqrt{x} - 1)} \cdot dx}$
+      \begin{align*}
+        u & = \sqrt{x} & du & = \frac{1}{2 \sqrt{x}} \cdot dx
+      \end{align*}
+      \begin{align*}
+        & = 2 \int \frac{1}{2 \sqrt{x}(\sqrt{x} - 1)} \cdot dx \\ \\
+        & = 2 \int \frac{1}{(u - 1)} \cdot du
+      \end{align*}
+  \end{itemize}
+
+  \newpage
+
+  \begin{itemize}
+    \item[-] $\displaystyle{\int e^x \coth(e^x) \cdot dx}$
+      \begin{align*}
+        u & = e^x & du & = e^x \cdot dx
+      \end{align*}
+      \begin{align*}
+        & = \int \coth(u) \cdot du \\ \\
+        & = \ln(\sinh(u)) \\ \\
+        & = \ln(\sinh(e^x)) + C
+      \end{align*}
+  \end{itemize}
+
+  \newpage
+
+  \begin{itemize}
+    \item[-] $\displaystyle{\int \frac{e^x}{\sqrt{e^{2x} - 2e^x}} \cdot dx}$
+      \begin{align*}
+        u & = e^x & du & = e^x \cdot dx
+      \end{align*}
+      \begin{align*}
+        & = \int \frac{1}{\sqrt{u^2 - 2u}} \cdot du \\ \\
+        & = \int \frac{1}{\sqrt{(u - 1)^2} - 1} \\ \\
+        & = \arccosh(u - 1) \\ \\
+        & = \arccosh(e^x - 1) + C
+      \end{align*}
+  \end{itemize}
+
+  \newpage
+
+  \begin{itemize}
+    \item[-] $\displaystyle{\frac{e^x}{4 + e^2x} \cdot dx}$
+      \begin{align*}
+        u & = e^x & du & = e^x \cdot dx
+      \end{align*}
+      \begin{align*}
+        & = \int \frac{1}{u^2 + 4} \cdot du \\ \\
+        & = \int \frac{1}{u^2 + 4} \\ \\
+        & = \frac{1}{2}\arctan(\frac{u}{2}) \\ \\
+        & = \frac{1}{2} \arctan(\frac{e^x}{2}) + C
+      \end{align*}
+  \end{itemize}
+
+  \newpage
+
+  \begin{itemize}
+    \item[-] $\displaystyle{\int \frac{\sech(x) \tanh(x)}{1 + \sech(x)} \cdot dx}$
+      \begin{align*}
+        u & = \sech(x) & du & = -\sech(x) \tanh(x) \cdot dx
+      \end{align*}
+      \begin{align*}
+        & = -\int \frac{1}{1 + u} \cdot du \\ \\
+        & = -\ln(u + 1) \\\\
+        & = \ln(\frac{1}{\sech(x) + 1}) + C
+      \end{align*}
+  \end{itemize}
+
+  \newpage
+
+  \begin{itemize}
+    \item[-] $\displaystyle{\int \frac{\cosh(x)}{{\sqrt{\sinh^2(x) - 2\sinh(x)}}} \cdot dx}$
+      \begin{align*}
+        u & = \sinh(x) & du & = \cosh(x) \cdot dx
+      \end{align*}
+      \begin{align*}
+        & = \int \frac{1}{\sqrt{u^2 - 2u}} \cdot du \\\\
+        & = \int \frac{1}{\sqrt{(u - 1)^2 - 1}} \cdot du \\\\
+        & = \arccosh(u-1) \\\\
+        & = \arccosh(\sinh(x) - 1) + C
+      \end{align*}
+  \end{itemize}
+
+  \newpage
+
+  \begin{itemize}
+    \item[-] $\displaystyle{\frac{1}{\sqrt{x}(x + 1)} \cdot dx}$
+      \begin{align*}
+        u & = \sqrt{x} & du & = \frac{1}{2\sqrt{x}} \cdot dx & x & = u^2
+      \end{align*}
+      \begin{align*}
+        & = 2 \int \frac{1}{u^2 + 1} \cdot du \\\\
+        & = \arctan(u) \\\\
+        & = \arctan(\sqrt{x}) + C
+      \end{align*}
+  \end{itemize}
+
+  \newpage
+
+  \begin{itemize}
+    \item[-] $\displaystyle{\int \frac{\sech^2(x)}{3 + \sech^2(x)} \cdot dx}$
+      \begin{align*}
+        u & = \tanh(x) & du = \sech^2(x) \cdot dx
+      \end{align*}
+      \begin{align*}
+        & = \frac{\sech^2(x)}{3 + 1 - \tanh^2(x)} & = & \frac{1}{4 - u^2} \cdot du \\\\
+        & = \frac{1}{2} \arctanh(\frac{u}{2}) & = & \frac{1}{2} \arctanh(\frac{\tanh(x)}{2}) + C
+      \end{align*}
+  \end{itemize}
+
+  \newpage
+
+  \begin{itemize}
+    \item[-] $\displaystyle{\int (x \ln(x))^2 \cdot dx}$
+      \begin{align*}
+        u & = \ln(x)^2 & du & = \frac{2\ln(x)}{x}\\
+        v & = \frac{x^3}{3} & dv & = x^2
+      \end{align*}
+      \begin{align*}
+        & = \int x^2 \ln(x)^2 \cdot dx\\
+        & = \frac{x^3}{3} \times \ln(x)^2 - \int \frac{2x^2 \ln(x)}{3}\\
+      \end{align*}
+      $\displaystyle{\frac{2}{3}\int x^2 \ln(x) \cdot dx}$
+      \begin{align*}
+        u & = \ln(x) & du & = \frac{1}{x}\\
+        v & = \frac{x^3}{3} & = & dv = x^2
+      \end{align*}
+      \begin{align*}
+        & = \frac{2x^3 \ln(x)}{9} - \int \frac{2x^2}{9}\\
+        & = \frac{2x^3 \ln(x)}{9} - \frac{2x^3}{27}
+      \end{align*}
+
+      \[= \frac{x^3}{3} \ln(x)^2 - \frac{2x^3 \ln(x)}{9} - \frac{2x^3}{27}\]
+
+  \end{itemize}
+
+\end{document}
