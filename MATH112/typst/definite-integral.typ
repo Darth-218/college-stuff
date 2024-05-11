@@ -57,3 +57,12 @@ arrow.r u = cos(x) arrow.r "du" = -sin(x)\
 arrow.r integral u^4 times (u^2 - 1) . "du"\
 = integral u^6 - u^4 . "du" = u^7/7 - u^5/5\
 arrow.r [ (cos^7(x))/7 - (cos^5(x))/5 ]^(pi/2)_0 = (cos^7(pi/2))/7 - (cos^5(0))/5 $
+
+7. $ integral^(pi/2)_(pi/4) (cot^n (x))/(sin^2 (x)) . "dx" = 1/(k-1) $ Find the value of k.
+
+sol:
+
+$ = integral^(pi/2)_(pi/4) ((cos^n (x))/(sin^(2+n) (x)))\
+arrow.r u = sin(x) arrow.r "du" = cos(x)\
+integral ((cos^(n-1) (x))/u^(2 + n)) . "du" = 
+$
