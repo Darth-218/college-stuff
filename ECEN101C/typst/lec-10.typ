@@ -8,9 +8,13 @@ Since the dependaent source depends on a independent source, $E_("TH") = 0$
 
 1. Find Thevinin's equivalent between the terminals a-b.
 
+#figure(image("lec-10.1.1.svg", width: 40%))
+
 $ E_("TH") = 0 $
 
 By connecting a current/voltage (1A/1V) supply between the two terminals a and b:
+
+#figure(image("lec-10.1.2.svg", width: 30%))
 
 1. Calculate $V_("ab")$ across the 1A current source.
 $ therefore R_("ab") = (V_("ab"))/(1A) = R_("TH") $
@@ -20,6 +24,8 @@ $ 0 = i_2(2 + 6 + 8) - i_2(2) - i_3(8) arrow.r 2 $
 $ i_3 = -1A arrow.r 3 $
 $ i_x = i_2 - i_3 arrow.r 4 $
 $ therefore V_("ab") = 8i_x = R_("TH") $
+
+#pagebreak()
 
 = The theory of the maximum power transfer
 
